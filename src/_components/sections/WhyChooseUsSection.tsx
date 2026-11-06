@@ -38,7 +38,7 @@ export function WhyChooseUsSection() {
   return (
     <section className="py-14 md:py-20 bg-background border-t border-border/80">
       <Container>
-        <div className="text-center max-w-2xl mx-auto mb-12">
+        <div className="text-center w-full mx-auto mb-12">
           <h2 className="text-2xl sm:text-3xl font-extrabold text-foreground mt-0">
             Built on Trust, Authenticity & Craftsmanship
           </h2>

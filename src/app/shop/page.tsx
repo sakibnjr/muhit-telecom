@@ -5,7 +5,7 @@ import { Container } from "@/_components/layout/Container";
 import { ShopContent } from "@/_components/sections/ShopContent";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Gadgets & Accessories | Muhit Telecom | Hili, Dinajpur",
+  title: "Gadgets & Accessories | Muhit Telecom",
   description:
     "Browse phones, earbuds, smartwatches, Wi-Fi routers, chargers and computer accessories at Muhit Telecom in Hili. Cash on Delivery across Bangladesh.",
   path: "/shop",

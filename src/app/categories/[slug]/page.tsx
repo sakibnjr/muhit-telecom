@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const content = categoryContent[category.slug];
 
   return pageMetadata({
-    title: `${category.name} | Muhit Telecom | Hili, Dinajpur`,
+    title: `${category.name} | Muhit Telecom`,
     description: content.metaDescription,
     path: `/categories/${category.slug}`,
   });
@@ -43,8 +43,8 @@ function CategoryLoading() {
         <div className="surface-panel grid min-h-72 animate-pulse items-center gap-6 p-6 sm:p-8 md:grid-cols-[minmax(0,1fr)_220px]">
           <div className="space-y-4">
             <div className="h-3 w-44 rounded bg-muted" />
-            <div className="h-10 max-w-xl rounded bg-muted" />
-            <div className="h-16 max-w-2xl rounded bg-muted" />
+            <div className="h-10 w-full rounded bg-muted" />
+            <div className="h-16 w-full rounded bg-muted" />
           </div>
           <div className="mx-auto h-48 w-full max-w-56 rounded-lg bg-muted" />
         </div>

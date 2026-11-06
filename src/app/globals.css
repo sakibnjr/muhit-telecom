@@ -108,7 +108,8 @@ main > .route-breadcrumbs + .page-shell {
 }
 
 .page-lede {
-    max-width: 66ch;
+    width: 100%;
+    max-width: 100%;
     color: var(--muted-foreground);
     font-size: 1rem;
     line-height: 1.75;

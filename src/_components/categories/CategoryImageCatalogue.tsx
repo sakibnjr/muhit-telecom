@@ -20,7 +20,7 @@ export function CategoryImageCatalogue({
 
   return (
     <section aria-labelledby="category-image-catalogue" className="mt-12">
-      <div className="mb-5 max-w-2xl">
+      <div className="mb-5 w-full">
         <h2 id="category-image-catalogue" className="text-2xl font-bold tracking-tight sm:text-3xl">
           More {name} models
         </h2>

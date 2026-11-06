@@ -8,7 +8,7 @@ import { Button } from '@/_ui/button';
 import { Trash2, Plus, Minus, ArrowRight, ShoppingBag, ShieldCheck } from 'lucide-react';
 
 export function CartView() {
-  const { cart, removeFromCart, updateQuantity, subtotal, totalCount } = useCart();
+  const { cart, removeFromCart, updateQuantity, clearCart, subtotal, totalCount } = useCart();
 
   if (cart.length === 0) {
     return (
@@ -34,13 +34,23 @@ export function CartView() {
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
       {/* Cart Items List */}
       <div className="surface-panel lg:col-span-8 p-5 sm:p-7 divide-y divide-border/70">
-        <div className="pb-4 flex items-center justify-between">
+        <div className="pb-4 flex flex-wrap items-center justify-between gap-3">
           <h2 className="text-lg font-bold tracking-tight text-foreground">
             Cart Items ({totalCount} items)
           </h2>
-          <Link href="/shop" className="text-sm font-semibold text-primary hover:underline">
-            + Add More Gear
-          </Link>
+          <div className="flex items-center gap-4">
+            <button
+              type="button"
+              onClick={clearCart}
+              className="inline-flex items-center gap-1.5 text-xs font-semibold text-red-500 hover:text-red-600 hover:underline cursor-pointer transition-colors"
+            >
+              <Trash2 className="w-3.5 h-3.5" />
+              <span>Clear Cart</span>
+            </button>
+            <Link href="/shop" className="text-sm font-semibold text-primary hover:underline">
+              + Add More Gear
+            </Link>
+          </div>
         </div>
 
         {cart.map((item) => (

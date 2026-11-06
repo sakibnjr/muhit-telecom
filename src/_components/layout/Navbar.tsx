@@ -3,27 +3,29 @@ import { Logo } from "@/_components/layout/Logo";
 import { NavSearch } from "@/_components/layout/NavSearch";
 import { CartNavButton } from "@/_components/layout/CartNavButton";
 import { MobileNav } from "@/_components/layout/MobileNav";
-import { Flame, Home, PackageSearch } from "lucide-react";
+import { NavbarNav } from "@/_components/layout/NavbarNav";
+import { PackageSearch } from "lucide-react";
 import { categories } from "@/_data/categories";
 import { servicesData } from "@/_data/services";
-import { CatalogNavigation } from "@/_components/layout/CatalogNavigation";
 
 export function Navbar() {
   const navigationGroups = [
     {
       title: "Categories",
       href: "/categories",
-      links: categories.map(({ name, slug }) => ({
+      links: categories.map(({ name, slug, icon }) => ({
         label: name,
         href: `/categories/${slug}`,
+        icon,
       })),
     },
     {
       title: "Services",
       href: "/services",
-      links: servicesData.map(({ title, slug }) => ({
+      links: servicesData.map(({ title, slug, iconName }) => ({
         label: title,
         href: `/services/${slug}`,
+        icon: iconName,
       })),
     },
   ];
@@ -66,60 +68,7 @@ export function Navbar() {
       {/* Subnav row with aligned content */}
       <div className="w-full bg-secondary">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-10">
-          <nav
-            aria-label="Main navigation"
-            className="relative hidden md:flex flex-wrap items-center gap-1 py-2.5 text-xs font-medium xl:justify-between"
-          >
-            <Link
-              href="/"
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-primary text-primary-foreground font-semibold shrink-0 shadow-xs hover:bg-primary/95 transition-colors"
-            >
-              <Home className="w-3.5 h-3.5" />
-              <span>Home</span>
-            </Link>
-
-            <Link
-              href="/shop"
-              className="rounded-lg px-3 py-2.5 text-secondary-foreground/90 transition-colors hover:bg-white/10 hover:text-white"
-            >
-              Shop
-            </Link>
-            <Link
-              href="/shop?filter=deals"
-              className="inline-flex items-center gap-1.5 rounded-lg px-3 py-2.5 font-semibold text-amber-100 transition-colors hover:bg-amber-300/10 hover:text-amber-50"
-            >
-              <Flame
-                className="size-4 fill-orange-500 text-orange-500 drop-shadow-[0_0_5px_rgba(249,115,22,0.65)] motion-safe:animate-bounce"
-                aria-hidden="true"
-              />
-              Hot Deals
-            </Link>
-            <Link
-              href="/#new-arrivals"
-              className="rounded-lg px-3 py-2.5 text-secondary-foreground/90 transition-colors hover:bg-white/10 hover:text-white"
-            >
-              New Arrivals
-            </Link>
-            <CatalogNavigation groups={navigationGroups} dark />
-            <Link
-              href="/about"
-              className="rounded-lg px-3 py-2.5 text-secondary-foreground/90 transition-colors hover:bg-white/10 hover:text-white"
-            >
-              About Us
-            </Link>
-            <Link
-              href="/warranty-policy"
-              className="rounded-lg px-3 py-2.5 text-secondary-foreground/90 transition-colors hover:bg-white/10 hover:text-white"
-            >
-              Warranty
-            </Link>
-            <Link
-              href="/contact"
-              className="rounded-lg px-3 py-2.5 text-secondary-foreground/90 transition-colors hover:bg-white/10 hover:text-white"
-            >
-              Contact
-            </Link>
-          </nav>
+          <NavbarNav groups={navigationGroups} />
         </div>
       </div>
     </header>

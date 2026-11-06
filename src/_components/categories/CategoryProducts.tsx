@@ -129,7 +129,7 @@ export function CategoryProducts({
       ) : (
         <div className="rounded-lg border border-dashed border-border bg-muted/30 p-6 sm:p-8">
           <h3 className="text-lg font-bold">No products listed in this category yet</h3>
-          <p className="mt-2 max-w-3xl leading-relaxed text-muted-foreground">
+          <p className="mt-2 w-full leading-relaxed text-muted-foreground">
             There are no {name.toLowerCase()} in the online catalogue at present. Ask about current options before visiting; an enquiry does not confirm stock or reserve an item.
           </p>
           <p className="mt-3 text-sm text-muted-foreground">{enquiryHint}</p>

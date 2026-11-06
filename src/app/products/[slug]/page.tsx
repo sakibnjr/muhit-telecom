@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!product) notFound();
 
   return pageMetadata({
-    title: `${product.title} | Muhit Telecom | Hili, Dinajpur`,
+    title: `${product.title} | Muhit Telecom`,
     description: `${product.shortDesc} Price: ${formatPrice(product.price)}. Order from Muhit Telecom in Hili with Cash on Delivery across Bangladesh.`,
     path: `/products/${product.slug}`,
     image: product.image,

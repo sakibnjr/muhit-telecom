@@ -8,7 +8,16 @@ import { formatPrice } from '@/lib/utils';
 import { Button } from '@/_ui/button';
 
 export function CartDrawer() {
-  const { cart, isCartOpen, setIsCartOpen, removeFromCart, updateQuantity, subtotal, totalCount } = useCart();
+  const {
+    cart,
+    isCartOpen,
+    setIsCartOpen,
+    removeFromCart,
+    updateQuantity,
+    clearCart,
+    subtotal,
+    totalCount,
+  } = useCart();
 
   if (!isCartOpen) return null;
 
@@ -25,13 +34,26 @@ export function CartDrawer() {
             <ShoppingBag className="w-5 h-5 text-primary" />
             <span className="font-bold text-foreground">Shopping Bag ({totalCount})</span>
           </div>
-          <button
-            type="button"
-            onClick={() => setIsCartOpen(false)}
-            className="p-1.5 text-muted-foreground hover:text-foreground rounded-lg"
-          >
-            <X className="w-5 h-5" />
-          </button>
+          <div className="flex items-center gap-2">
+            {cart.length > 0 && (
+              <button
+                type="button"
+                onClick={clearCart}
+                className="text-xs font-semibold text-red-500 hover:text-red-600 hover:underline px-1.5 py-1 cursor-pointer transition-colors"
+                title="Clear all items from bag"
+              >
+                Clear Bag
+              </button>
+            )}
+            <button
+              type="button"
+              onClick={() => setIsCartOpen(false)}
+              className="p-1.5 text-muted-foreground hover:text-foreground rounded-lg"
+              aria-label="Close cart drawer"
+            >
+              <X className="w-5 h-5" />
+            </button>
+          </div>
         </div>
 
         <div className="flex-1 overflow-y-auto p-4 divide-y divide-border/60">

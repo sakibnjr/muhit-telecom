@@ -9,7 +9,7 @@ import { ServiceBookingQuery } from "@/_components/services/ServiceBookingQuery"
 import { Container } from "@/_components/layout/Container";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Mobile & PC Repair Services | Muhit Telecom | Hili, Dinajpur",
+  title: "Mobile & PC Repair Services | Muhit Telecom",
   description:
     "Explore eight device services in Hili: battery and screen replacement, motherboard diagnosis, permitted software support, multimedia transfer and accessories advice.",
   path: "/services",

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const siteUrl = "https://muhit-telecom.com";
 export const defaultTitle =
-  "Gadgets & Mobile Repair | Muhit Telecom | Hili, Dinajpur";
+  "Muhit Telecom | Authentic Gadgets & Electronics Shop in Bangladesh";
 export const defaultDescription =
   "Shop mobile gadgets and computer accessories or ask about phone and PC repairs at Muhit Telecom in Hakimpur (Hili), Dinajpur. Cash on Delivery across Bangladesh.";
 export const socialImage = {

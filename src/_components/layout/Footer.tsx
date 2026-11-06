@@ -26,11 +26,11 @@ export function Footer() {
       <Container className="relative py-9 sm:py-12">
         <section aria-labelledby="footer-contact-heading" className="mb-10 rounded-xl border border-white/10 bg-gradient-to-br from-primary/15 via-white/[0.04] to-white/[0.02] p-5 shadow-xl shadow-black/10 sm:mb-12 sm:p-7 lg:p-8">
           <div className="flex flex-col justify-between gap-6 md:flex-row md:items-center">
-            <div className="max-w-2xl">
+            <div className="w-full">
               <h2 id="footer-contact-heading" className="text-xl font-bold tracking-tight text-white sm:text-2xl">
                 Need help choosing a gadget or repair?
               </h2>
-              <p className="mt-2 max-w-xl text-sm leading-6 text-slate-300">
+              <p className="mt-2 w-full text-sm leading-6 text-slate-300">
                 Talk directly with Muhit Telecom in Hili. We can help with product questions, delivery, and repair enquiries.
               </p>
             </div>

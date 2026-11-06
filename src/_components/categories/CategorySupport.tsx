@@ -36,8 +36,8 @@ export function CategorySupport({ content }: { content?: CategoryContent }) {
       )}
       <section aria-labelledby="category-visit" className="rounded-xl border border-border bg-light-section p-6 sm:p-8">
         <h2 id="category-visit" className="text-2xl font-bold tracking-tight text-light-section-text sm:text-3xl">Ask a question or visit {siteConfig.name} in Hili</h2>
-        <p className="mt-3 max-w-3xl text-base leading-7 text-light-section-text">{siteConfig.address.fullAddress_en}. {siteConfig.hours.display}.</p>
-        <p className="mt-3 max-w-3xl text-sm leading-7 text-muted-foreground">
+        <p className="mt-3 w-full text-base leading-7 text-light-section-text">{siteConfig.address.fullAddress_en}. {siteConfig.hours.display}.</p>
+        <p className="mt-3 w-full text-sm leading-7 text-muted-foreground">
           {content?.enquiryHint ?? "Tell us which device or category you are comparing so we can discuss suitable options."} Confirm the exact item, availability and applicable warranty terms before making a purchase.
         </p>
         <div className="mt-5 flex flex-wrap gap-3">

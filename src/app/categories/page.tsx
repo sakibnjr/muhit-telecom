@@ -9,7 +9,7 @@ import { CategorySupport } from "@/_components/categories/CategorySupport";
 const description = "Explore 12 mobile, audio, charging and everyday tech categories at Muhit Telecom in Hili, Dinajpur, with buying guides, listed products and enquiry options.";
 
 export const metadata = pageMetadata({
-  title: "Shop Categories & Buying Guides | Muhit Telecom | Hili, Dinajpur",
+  title: "Shop Categories & Buying Guides | Muhit Telecom",
   description,
   path: "/categories",
 });

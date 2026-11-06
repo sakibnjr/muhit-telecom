@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const page = getServicePage(slug);
   if (!page) notFound();
   return pageMetadata({
-    title: `${page.content.title} | Muhit Telecom | Hili, Dinajpur`,
+    title: `${page.content.title} | Muhit Telecom`,
     description: page.content.description,
     path: `/services/${slug}`,
   });
@@ -33,10 +33,10 @@ function ServiceLoading() {
   return (
     <div className="page-shell">
       <Container>
-        <div className="mb-10 max-w-3xl animate-pulse space-y-4">
+        <div className="mb-10 w-full animate-pulse space-y-4">
           <div className="h-3 w-48 rounded bg-muted" />
-          <div className="h-12 max-w-2xl rounded bg-muted" />
-          <div className="h-6 max-w-sm rounded bg-muted" />
+          <div className="h-12 w-full rounded bg-muted" />
+          <div className="h-6 w-full rounded bg-muted" />
         </div>
         <div className="grid gap-8 lg:grid-cols-[minmax(0,2fr)_minmax(320px,1fr)]">
           <div className="h-96 rounded-lg bg-muted" />
@@ -69,7 +69,7 @@ async function ServicePageContent({ params }: Props) {
           <ServiceArticle content={content} />
           <ServiceEstimate service={service} />
         </div>
-        <section className="mt-14 max-w-3xl" aria-label="Request a service consultation">
+        <section className="mt-14 w-full" aria-label="Request a service consultation">
           <ServiceBookingForm key={slug} initialServiceSlug={slug} />
         </section>
         <section className="mt-14" aria-labelledby="related-services">

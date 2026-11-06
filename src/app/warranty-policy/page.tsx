@@ -5,7 +5,7 @@ import { ShieldCheck, RotateCcw, Clock, CheckCircle } from "lucide-react";
 import { siteConfig } from "@/_data/siteConfig";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Warranty & Returns | Muhit Telecom | Hili, Dinajpur",
+  title: "Warranty & Returns | Muhit Telecom",
   description:
     "Read gadget replacement conditions, manufacturer warranty information and mobile repair warranty terms at Muhit Telecom in Hakimpur (Hili), Dinajpur.",
   path: "/warranty-policy",

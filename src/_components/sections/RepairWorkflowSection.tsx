@@ -58,7 +58,7 @@ export function RepairWorkflowSection() {
   return (
     <section className="bg-background py-6 sm:py-14">
       <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8 xl:px-10">
-        <div className="mx-auto mb-8 max-w-xl text-center">
+        <div className="mx-auto mb-8 w-full text-center">
           <h2 className="text-2xl font-bold tracking-tight text-foreground sm:text-3xl">
             How our repair service works
           </h2>

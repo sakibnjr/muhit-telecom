@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = pageMetadata({
-  title: "About Us | Muhit Telecom | Hili, Dinajpur",
+  title: "About Us | Muhit Telecom",
   description:
     "Meet proprietor Masum Hossain and learn about Muhit Telecom, a mobile gadget, accessories and repair shop on Sonarpatti Road in Hakimpur (Hili), Dinajpur.",
   path: "/about",
@@ -72,29 +72,6 @@ export default function AboutPage() {
           </div>
         </div>
 
-        <section className="surface-panel mb-16 grid items-center gap-7 p-6 shadow-sm sm:p-8 lg:grid-cols-[220px_minmax(0,1fr)] lg:gap-10">
-          <div className="relative mx-auto aspect-[9/19] w-full max-w-[190px] overflow-hidden rounded-lg border border-border bg-white shadow-sm">
-            <Image
-              src="/images/about/online-store-preview.avif"
-              alt="Preview of the Muhit Telecom online shop and product catalogue"
-              fill
-              sizes="190px"
-              className="object-contain"
-            />
-          </div>
-          <div className="max-w-2xl">
-            <h2 className="text-2xl font-bold tracking-tight text-foreground sm:text-3xl">
-              Browse the catalogue before you visit
-            </h2>
-            <p className="mt-3 leading-7 text-muted-foreground">
-              Explore phones, accessories, and everyday tech from home, then contact us to confirm the exact model and current availability.
-            </p>
-            <Link href="/shop" className="mt-5 inline-flex min-h-11 items-center gap-2 rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90">
-              Explore the shop <ArrowRight className="size-4" aria-hidden="true" />
-            </Link>
-          </div>
-        </section>
-
         {/* Core Pillars */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           <div className="surface-panel p-6 text-center shadow-sm">
@@ -136,7 +113,7 @@ export default function AboutPage() {
         </div>
 
         {/* Masum Hossain Note */}
-        <div className="rounded-xl bg-muted/40 border border-border p-6 sm:p-10 max-w-3xl mx-auto text-center space-y-4">
+        <div className="rounded-xl bg-muted/40 border border-border p-6 sm:p-10 w-full text-center space-y-4">
           <Heart className="w-8 h-8 text-red-500 mx-auto" />
           <h2 className="text-xl sm:text-2xl font-bold text-foreground">
             A Personal Message from Masum Hossain
