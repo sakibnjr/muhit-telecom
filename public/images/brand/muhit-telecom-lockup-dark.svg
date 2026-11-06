@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="246" height="64" viewBox="0 0 246 64" fill="none">
+  <defs>
+    <linearGradient id="mark" x1="5" y1="5" x2="57" y2="61" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0879E8" />
+      <stop offset="1" stop-color="#0750A7" />
+    </linearGradient>
+  </defs>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="18" fill="url(#mark)" />
+  <rect x="2" y="2" width="60" height="60" rx="17.5" stroke="#B8E8FF" stroke-opacity=".32" />
+  <rect x="16.5" y="7.5" width="31" height="49" rx="7.5" stroke="#F8FCFF" stroke-width="2.4" />
+  <path d="M27 13.5h10" stroke="#A7ECFF" stroke-width="2.2" stroke-linecap="round" />
+  <path d="M21.5 39V22.5l8.2 8 8.2-8V39" stroke="#F8FCFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M38 24h7.5M41.75 24v15" stroke="#A7ECFF" stroke-width="3" stroke-linecap="round" />
+  <circle cx="32" cy="50.5" r="1.5" fill="#F8FCFF" />
+  <text x="75" y="29" fill="#102A43" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="22" font-weight="800" letter-spacing=".35">MUHIT</text>
+  <text x="151" y="28.5" fill="#0874D8" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15.5" font-weight="700" letter-spacing="1.05">TELECOM</text>
+  <text x="75" y="48" fill="#61758A" font-family="'Noto Sans Bengali', 'Nirmala UI', sans-serif" font-size="10.5" font-weight="500" letter-spacing=".1">মুহিত টেলিকম • হিলি</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="title">
+  <title id="title">Muhit Telecom — Local Link concept</title>
+  <g fill="#111111">
+    <rect x="42" y="50" width="30" height="156" rx="6"/>
+    <rect x="42" y="50" width="70" height="30" rx="6"/>
+    <rect x="42" y="176" width="70" height="30" rx="6"/>
+    <rect x="184" y="50" width="30" height="156" rx="6"/>
+    <rect x="144" y="50" width="70" height="30" rx="6"/>
+    <rect x="144" y="176" width="70" height="30" rx="6"/>
+    <circle cx="128" cy="128" r="14"/>
+  </g>
+</svg>

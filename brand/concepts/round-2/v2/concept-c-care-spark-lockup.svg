@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 256" width="760" height="256" role="img" aria-labelledby="title">
+  <title id="title">Muhit Telecom — Care Spark lockup concept</title>
+  <path fill="#111111" fill-rule="evenodd" d="M88 16H168A40 40 0 0 1 208 56V200A40 40 0 0 1 168 240H88A40 40 0 0 1 48 200V56A40 40 0 0 1 88 16ZM64 54H192V202H64V54Z"/>
+  <path fill="#111111" d="M128 88L140 116L168 128L140 140L128 168L116 140L88 128L116 116L128 88Z"/>
+  <text x="292" y="111" fill="#111111" font-family="system-ui, sans-serif" font-size="48" font-weight="800" letter-spacing="0.5">MUHIT</text>
+  <text x="294" y="158" fill="#111111" font-family="system-ui, sans-serif" font-size="25" font-weight="700" letter-spacing="5">TELECOM</text>
+</svg>

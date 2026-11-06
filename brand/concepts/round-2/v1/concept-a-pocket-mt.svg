@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="title">
+  <title id="title">Muhit Telecom — Pocket MT concept</title>
+  <path fill="#111111" fill-rule="evenodd" d="M88 16H168A40 40 0 0 1 208 56V200A40 40 0 0 1 168 240H88A40 40 0 0 1 48 200V56A40 40 0 0 1 88 16ZM64 54H192V194H64V54ZM108 32H148A4 4 0 0 1 152 36V40A4 4 0 0 1 148 44H108A4 4 0 0 1 104 40V36A4 4 0 0 1 108 32Z"/>
+  <path fill="#111111" d="M76 164V84H94L108 103L122 84H140V164H122V116L108 135L94 116V164H76Z"/>
+  <path fill="#111111" d="M145 84H182V104H170V164H153V104H145V84Z"/>
+</svg>

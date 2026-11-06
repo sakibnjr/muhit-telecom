@@ -1,0 +1,265 @@
+import type { ServiceItem } from "@/_types";
+
+export const servicesData: ServiceItem[] = [
+  {
+    id: "battery-replacement",
+    slug: "battery-replacement",
+    title: "Battery Replacement (Original)",
+    title_bn: "ব্যাটারি রিপ্লেসমেন্ট (অরিজিনাল)",
+    iconName: "BatteryCharging",
+    tagline:
+      "Quick 30-minute replacement with 100% genuine high-health battery",
+    description:
+      "Experiencing rapid battery drain, device heating, or swollen battery? We provide 100% authentic, Grade-A high-capacity batteries with precision waterproof sealing.",
+    estimatedTime: "20 - 40 Mins",
+    startingPrice: 650,
+    warrantyDays: 180,
+    features: [
+      "Original & branded high-capacity batteries",
+      "Accurate 100% battery health report on iOS & Android",
+      "Professional waterproof adhesive & heat-press fitting",
+      "6 months instant replacement warranty",
+    ],
+    commonIssues: [
+      "Rapid battery percentage drop",
+      "Device shutting down at 20-30% charge",
+      "Abnormal heating during charging",
+      "Swollen battery lifting display panel",
+    ],
+    popularDevices: [
+      "iPhone 11-15 Pro Max",
+      "Samsung Galaxy A/S Series",
+      "Xiaomi/Redmi",
+      "Realme",
+      "Vivo",
+      "Oppo",
+    ],
+    image: "/images/services/battery-repair.avif",
+  },
+  {
+    id: "screen-repair-replacement",
+    slug: "screen-repair-replacement",
+    title: "Screen Repair & Replacement",
+    title_bn: "স্ক্রিন রিপেয়ার ও ডিসপ্লে পরিবর্তন",
+    iconName: "Smartphone",
+    tagline:
+      "Original OLED & AMOLED display replacement with true color fidelity",
+    description:
+      "Cracked glass, unresponsive touch, vertical green lines, or black ink spots? We provide precision glass laminations and original AMOLED screen replacements.",
+    estimatedTime: "45 - 60 Mins",
+    startingPrice: 1200,
+    warrantyDays: 90,
+    features: [
+      "Original OLED / AMOLED / FHD+ display panels",
+      "Flawless touch latency & True Tone retention",
+      "Dust-free cleanroom installation",
+      "Free diagnosis & 90-day warranty coverage",
+    ],
+    commonIssues: [
+      "Vertical green or pink display lines",
+      "Cracked outer glass with functional touch (glass only)",
+      "Total black screen with vibration/incoming ring",
+      "Ghost touch or erratic screen behavior",
+    ],
+    popularDevices: [
+      "iPhone Series",
+      "Samsung S/A/M Series",
+      "OnePlus",
+      "Redmi Note Series",
+      "Infinix",
+      "Tecno",
+    ],
+    image: "/images/services/screen-repair.avif",
+  },
+  {
+    id: "mobile-country-unlock",
+    slug: "mobile-country-unlock",
+    title: "Mobile Country Unlock",
+    title_bn: "মোবাইল কান্ট্রি ও নেটওয়ার্ক আনলক",
+    iconName: "Globe",
+    tagline:
+      "Official permanent carrier unlock for US, UK, Middle East & Japanese phones",
+    description:
+      "Imported smartphones from USA, Canada, Dubai, Saudi Arabia, or Europe with SIM network lock are permanently unlocked using official carrier servers.",
+    estimatedTime: "1 - 24 Hours",
+    startingPrice: 800,
+    warrantyDays: 365,
+    features: [
+      "Official server IMEI unlock method",
+      "Lifetime permanent unlock guarantee",
+      "Supports all Bangladeshi SIMs (GP, Robi, Banglalink, Airtel, Teletalk)",
+      "Remains unlocked after software updates or factory resets",
+    ],
+    commonIssues: [
+      "SIM Not Supported / Invalid SIM warning",
+      "Network Locked SIM Card Inserted prompt",
+      "AT&T, T-Mobile, Verizon, Docomo, Softbank carrier locks",
+    ],
+    popularDevices: [
+      "Apple iPhone",
+      "Samsung Galaxy",
+      "Google Pixel",
+      "Motorola",
+      "Sony Xperia",
+    ],
+    image: "/images/services/country-unlock.avif",
+  },
+  {
+    id: "mobile-repair-flash-unlock",
+    slug: "mobile-repair-flash-unlock",
+    title: "Mobile Repair Flash & Unlock",
+    title_bn: "সফটওয়্যার ফ্ল্যাশ, ডেড বুট ও এফআরপি আনলক",
+    iconName: "Cpu",
+    tagline:
+      "Fix bootloops, bricked devices, Google FRP lock, Mi Account & software bugs",
+    description:
+      "Stuck on manufacturer logo, bootlooping, forgotten screen pattern, Google FRP lock, or Mi Account lockout resolved via certified software dongles and flash tools.",
+    estimatedTime: "30 - 90 Mins",
+    startingPrice: 400,
+    warrantyDays: 60,
+    features: [
+      "Official global firmware & clean ROM flashing",
+      "Instant Google FRP & account lock bypass",
+      "Mi Account, Knox Lock, and MDM security removal",
+      "Dead bootloader recovery & auto-restart troubleshooting",
+    ],
+    commonIssues: [
+      "Stuck on boot logo or bootlooping infinitely",
+      "Locked on Google account verification after reset",
+      "Forgotten pattern, PIN, or password",
+      "Corrupted software or system UI crashes",
+    ],
+    popularDevices: [
+      "Xiaomi / Poco",
+      "Samsung",
+      "Realme / Oppo",
+      "Vivo",
+      "Huawei / Honor",
+    ],
+    image: "/images/services/flash-unlock.avif",
+  },
+  {
+    id: "pc-motherboard-repair",
+    slug: "pc-motherboard-repair",
+    title: "PC & Mobile Motherboard Repair",
+    title_bn: "মাদারবোর্ড মাইক্রো-সোল্ডারিং ও চিপ রিপেয়ার",
+    iconName: "Microchip",
+    tagline:
+      "Advanced IC replacement, short circuit removal & power issue resolution",
+    description:
+      "Liquid damage, dead power circuits, burnt capacitors, audio IC, charging IC, and CPU reballing carried out in our state-of-the-art microscope electronics workstation.",
+    estimatedTime: "1 - 3 Days",
+    startingPrice: 900,
+    warrantyDays: 60,
+    features: [
+      "Thermal camera microscopic short-circuit detection",
+      "Component-level precision micro-soldering & BGA reballing",
+      "Genuine power, display, and baseband IC replacements",
+      "Strict No-Fix No-Fee policy (zero charge if unrepairable)",
+    ],
+    commonIssues: [
+      "Completely dead phone or PC motherboard (no power drawing)",
+      "Water / liquid damage short circuit",
+      "Severe heating while charging with zero charge accumulation",
+      "No Service / Baseband searching network IC faults",
+    ],
+    popularDevices: [
+      "All Smartphone Brands",
+      "Laptop & Desktop Motherboards",
+      "Gaming PCs",
+    ],
+    image: "/images/services/motherboard-repair.avif",
+  },
+  {
+    id: "mobile-display-replacements",
+    slug: "mobile-display-replacements",
+    title: "Mobile Display Replacements",
+    title_bn: "মোবাইল ডিসপ্লে কম্বো ও ফ্রেম রিপ্লেসমেন্ট",
+    iconName: "Layers",
+    tagline:
+      "Precision frame fitting for curved, fold & high-refresh rate displays",
+    description:
+      "Seamless frame assembly for curved displays, foldable phones, and 120Hz high refresh rate screens with authentic optical glue and zero light bleeding.",
+    estimatedTime: "1 Hour",
+    startingPrice: 1500,
+    warrantyDays: 90,
+    features: [
+      "Original display assembly with pre-molded frame",
+      "Full 120Hz smooth refresh rate support",
+      "Under-display optical fingerprint scanner fully functional",
+    ],
+    commonIssues: [
+      "Bent housing frame lifting display",
+      "Edge light bleed",
+      "Touch jitter",
+    ],
+    popularDevices: [
+      "OnePlus 7-11 Pro",
+      "Samsung S20-S24 Ultra",
+      "Realme Pro Plus",
+    ],
+    image: "/images/services/screen-repair.avif",
+  },
+  {
+    id: "mobile-multimedia-downloading",
+    slug: "mobile-multimedia-downloading",
+    title: "Mobile Multimedia Downloading",
+    title_bn: "মাল্টিমিডিয়া ডাউনলোড ও মেমোরি লোডিং",
+    iconName: "DownloadCloud",
+    tagline:
+      "Full HD movies, songs, Islamic content & games loading for memory cards & phones",
+    description:
+      "High-speed, virus-free multimedia content loading for MicroSD memory cards, USB drives, keypad phones, and smartphones with custom folders.",
+    estimatedTime: "10 - 15 Mins",
+    startingPrice: 50,
+    warrantyDays: 0,
+    features: [
+      "Virus-free high-speed USB 3.0 data transfer",
+      "Customized categorized file selection",
+      "Lossless FLAC audio, HD documentaries, and educational apps",
+    ],
+    commonIssues: [
+      "Accidental memory card deletion",
+      "Loading favorite audio/video collections",
+    ],
+    popularDevices: [
+      "Memory Cards",
+      "Pendrives",
+      "Keypad Phones",
+      "Android Phones",
+    ],
+    image: "/images/services/multimedia.avif",
+  },
+  {
+    id: "computer-mobile-accessories-sale",
+    slug: "computer-mobile-accessories-sale",
+    title: "Computer & Mobile Accessories Sale",
+    title_bn: "কম্পিউটার ও মোবাইল এক্সেসরিজ বিক্রয়",
+    iconName: "ShoppingBag",
+    tagline:
+      "Authentic tech gadgets & PC peripherals at wholesale-friendly prices",
+    description:
+      "The largest gadget and computer peripherals inventory in Hakimpur (Hili)—Wi-Fi routers, fast chargers, keyboards, optical mice, desk mats, and cables.",
+    estimatedTime: "Instant Pickup",
+    startingPrice: 100,
+    warrantyDays: 365,
+    features: [
+      "100% authentic branded tech gear",
+      "Official brand replacement warranty",
+      "Competitive wholesale and retail pricing",
+    ],
+    commonIssues: [
+      "Counterfeit gadgets in local markets",
+      "Lack of warranty support",
+    ],
+    popularDevices: [
+      "TP-Link",
+      "Baseus",
+      "Anker",
+      "A4Tech",
+      "Fantech",
+      "Remax",
+    ],
+    image: "/images/services/accessories-sale.avif",
+  },
+];

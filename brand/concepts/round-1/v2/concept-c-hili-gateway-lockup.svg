@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 256" width="760" height="256" role="img" aria-labelledby="title">
+  <title id="title">Muhit Telecom — Hili Gateway lockup concept</title>
+  <path fill="#111111" d="M40 216V128A88 88 0 0 1 216 128V216H180V128A52 52 0 0 0 76 128V216H40Z"/>
+  <path fill="#111111" d="M76 164H180V188H76Z"/>
+  <text x="292" y="111" fill="#111111" font-family="system-ui, sans-serif" font-size="48" font-weight="800" letter-spacing="0.5">MUHIT</text>
+  <text x="294" y="158" fill="#111111" font-family="system-ui, sans-serif" font-size="25" font-weight="700" letter-spacing="5">TELECOM</text>
+</svg>

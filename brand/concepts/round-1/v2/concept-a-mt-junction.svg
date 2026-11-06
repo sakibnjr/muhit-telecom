@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="title">
+  <title id="title">Muhit Telecom — MT Junction concept</title>
+  <rect x="20" y="20" width="216" height="216" rx="48" fill="#111111"/>
+  <path fill="#ffffff" d="M36 192V64H64L84 92L104 64H132V192H104V108L84 136L64 108V192H36Z"/>
+  <path fill="#ffffff" d="M156 64H220V92H200V192H176V92H156V64Z"/>
+</svg>

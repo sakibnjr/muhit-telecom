@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 256" width="760" height="256" role="img" aria-labelledby="title">
+  <title id="title">Muhit Telecom — Pocket MT lockup concept</title>
+  <path fill="#111111" fill-rule="evenodd" d="M88 16H168A40 40 0 0 1 208 56V200A40 40 0 0 1 168 240H88A40 40 0 0 1 48 200V56A40 40 0 0 1 88 16ZM64 54H192V200H64V54ZM108 32H148A4 4 0 0 1 152 36V40A4 4 0 0 1 148 44H108A4 4 0 0 1 104 40V36A4 4 0 0 1 108 32Z"/>
+  <path fill="#111111" d="M72 168V80H94L106 98L118 80H140V168H118V116L106 132L94 116V168H72Z"/>
+  <path fill="#111111" d="M148 80H184V102H174V168H158V102H148V80Z"/>
+  <text x="292" y="111" fill="#111111" font-family="system-ui, sans-serif" font-size="48" font-weight="800" letter-spacing="0.5">MUHIT</text>
+  <text x="294" y="158" fill="#111111" font-family="system-ui, sans-serif" font-size="25" font-weight="700" letter-spacing="5">TELECOM</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 256" width="760" height="256" role="img" aria-labelledby="title">
+  <title id="title">Muhit Telecom — Local Link lockup concept</title>
+  <g fill="#111111">
+    <rect x="42" y="50" width="30" height="156" rx="6"/><rect x="42" y="50" width="70" height="30" rx="6"/><rect x="42" y="176" width="70" height="30" rx="6"/>
+    <rect x="184" y="50" width="30" height="156" rx="6"/><rect x="144" y="50" width="70" height="30" rx="6"/><rect x="144" y="176" width="70" height="30" rx="6"/>
+    <circle cx="128" cy="128" r="12"/>
+  </g>
+  <text x="292" y="111" fill="#111111" font-family="system-ui, sans-serif" font-size="48" font-weight="800" letter-spacing="0.5">MUHIT</text>
+  <text x="294" y="158" fill="#111111" font-family="system-ui, sans-serif" font-size="25" font-weight="700" letter-spacing="5">TELECOM</text>
+</svg>
