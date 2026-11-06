@@ -30,7 +30,7 @@ export function ServiceArticle({ content }: { content: ServiceContent }) {
               <Link href={`/categories/${category.slug}`} className="text-primary font-semibold underline underline-offset-4">
                 {category.label}
               </Link>
-              {' — '}{category.reason}
+              {' - '}{category.reason}
             </li>
           ))}
         </ul>

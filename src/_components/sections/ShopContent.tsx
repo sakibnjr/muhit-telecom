@@ -4,6 +4,7 @@ import { getCategory } from "@/_data/categories";
 import { matchesProductCategory, normalizeCategorySlug } from "@/_data/catalog";
 import { ProductCard } from "@/_components/cards/ProductCard";
 import { ProductFilters } from "@/_components/forms/ProductFilters";
+import { MobileFilterBar } from "@/_components/forms/MobileFilterBar";
 import { Pagination } from "@/_components/layout/Pagination";
 import { Search } from "lucide-react";
 import { filterProducts, getProductBrands } from "@/_data/productFiltering";
@@ -77,7 +78,7 @@ export function ShopContent({
   return (
     <>
       <div className="grid gap-6 lg:grid-cols-[230px_minmax(0,1fr)] xl:grid-cols-[250px_minmax(0,1fr)]">
-        <aside className="lg:sticky lg:top-[12rem] lg:self-start">
+        <aside className="hidden lg:block lg:sticky lg:top-[12rem] lg:self-start">
           <ProductFilters
             brands={brands}
             resultCount={filtered.length}
@@ -85,14 +86,19 @@ export function ShopContent({
         </aside>
 
         <div className="min-w-0">
-          <p className="mb-4 text-sm text-muted-foreground" aria-live="polite">
+          <MobileFilterBar
+            brands={brands}
+            resultCount={filtered.length}
+          />
+
+          <p className="mb-3 text-xs sm:text-sm text-muted-foreground" aria-live="polite">
             Showing <span className="font-semibold text-foreground">{paginatedProducts.length}</span> of{" "}
             <span className="font-semibold text-foreground">{filtered.length}</span> products
           </p>
 
           {paginatedProducts.length > 0 ? (
             <>
-              <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 sm:gap-5">
+              <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-5 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
                 {paginatedProducts.map((product) => (
                   <ProductCard key={product.id} product={product} />
                 ))}

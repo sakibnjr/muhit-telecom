@@ -65,60 +65,60 @@ export function ExpertRepairSection() {
           />
           <div
             aria-hidden="true"
-            className="absolute inset-0 bg-gradient-to-b from-white/90 via-white/85 to-white/75 lg:bg-gradient-to-r lg:from-transparent lg:via-white/75 lg:to-white/90"
+            className="absolute inset-0 bg-gradient-to-b from-white/95 via-white/90 to-white/80 lg:bg-gradient-to-r lg:from-transparent lg:from-38% lg:via-white/85 lg:via-48% lg:to-white lg:to-65%"
           />
-          <div className="relative min-h-[700px] sm:min-h-[700px] lg:min-h-[590px]">
-            <div className="ml-auto flex min-h-[700px] items-center p-4 sm:min-h-[700px] sm:p-6 lg:min-h-[590px] lg:w-[68%] lg:p-8">
-              <div className="w-full p-5 sm:p-8 lg:p-10">
+          <div className="relative min-h-[640px] sm:min-h-[660px] lg:min-h-[580px]">
+            <div className="ml-auto flex min-h-[640px] items-center p-2 sm:min-h-[660px] sm:p-6 lg:min-h-[580px] lg:w-[53%] lg:p-8">
+              <div className="w-full p-2 sm:p-6 lg:p-8">
                 <div className="flex flex-col justify-center space-y-6">
                   <div>
-                    <h2 className="text-2xl font-black tracking-tight text-foreground sm:text-3xl lg:text-4xl">
+                    <h2 className="truncate text-2xl font-black tracking-tight text-foreground sm:text-3xl lg:text-4xl">
                       Expert mobile &amp; computer repair
                     </h2>
-                    <p className="mt-3 text-base leading-7 text-muted-foreground">
+                    <p className="mt-3 text-base leading-7 text-muted-foreground [text-align:justify] [hyphens:auto]">
                       From cracked screens and weak batteries to complex
                       motherboard repairs and network unlocking, talk to our
                       team in Hili about the right repair for your device.
                     </p>
                   </div>
 
-                  <div className="grid grid-cols-1 gap-x-6 sm:grid-cols-2">
+                  <div className="grid grid-cols-2 gap-2.5 sm:gap-x-6 sm:gap-y-0">
                     {repairBadges.map((badge) => {
                       const Icon = badge.icon;
                       return (
                         <Link
                           key={badge.slug}
                           href={`/services/${badge.slug}`}
-                          className="group flex items-center gap-3 border-b border-slate-300/60 py-3 transition-colors hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
+                          className="group relative flex flex-col items-start gap-2.5 rounded-2xl border border-white/80 bg-white/75 p-3 shadow-sm backdrop-blur-sm transition-all hover:border-primary/30 hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 sm:flex-row sm:items-center sm:gap-3 sm:rounded-none sm:border-0 sm:border-b sm:border-slate-300/60 sm:bg-transparent sm:p-0 sm:py-3 sm:shadow-none sm:backdrop-blur-none"
                         >
-                          <div className="flex size-9 shrink-0 items-center justify-center text-primary">
+                          <div className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-primary/10 text-primary sm:size-9 sm:rounded-none sm:bg-transparent">
                             <Icon className="size-5" aria-hidden="true" />
                           </div>
                           <div className="min-w-0">
-                            <h3 className="text-sm font-semibold leading-snug text-foreground">
+                            <h3 className="text-[13px] font-semibold leading-snug text-foreground sm:text-sm">
                               {badge.title}
                             </h3>
-                            <p className="text-sm leading-relaxed text-muted-foreground">
+                            <p className="mt-0.5 text-xs leading-snug text-muted-foreground sm:text-sm sm:leading-relaxed">
                               {badge.desc}
                             </p>
                           </div>
-                          <ArrowRight className="size-4 shrink-0 text-muted-foreground transition-all group-hover:translate-x-0.5 group-hover:text-primary" aria-hidden="true" />
+                          <ArrowRight className="absolute right-3 top-3 size-4 shrink-0 text-muted-foreground/70 transition-all group-hover:translate-x-0.5 group-hover:text-primary sm:static" aria-hidden="true" />
                         </Link>
                       );
                     })}
                   </div>
 
-                  <div className="flex flex-wrap items-center gap-3 pt-1">
+                  <div className="grid grid-cols-1 gap-3 pt-1 sm:grid-cols-2">
                     <Link
                       href="/services"
-                      className="inline-flex min-h-11 items-center gap-2 rounded-xl bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground shadow-sm transition-all hover:-translate-y-0.5 hover:bg-primary/90 hover:shadow-md"
+                      className="flex min-h-11 w-full items-center justify-center gap-2 rounded-xl bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground shadow-sm transition-all hover:-translate-y-0.5 hover:bg-primary/90 hover:shadow-md"
                     >
                       <span>Book a repair</span>
                       <ArrowRight className="size-4" aria-hidden="true" />
                     </Link>
                     <a
                       href={`tel:${siteConfig.phone}`}
-                      className="inline-flex min-h-11 items-center gap-2 rounded-xl border border-border bg-white/90 px-4 py-2.5 text-sm font-semibold text-foreground shadow-sm transition-colors hover:bg-white"
+                      className="flex min-h-11 w-full items-center justify-center gap-2 rounded-xl border border-border bg-white/90 px-4 py-2.5 text-sm font-semibold text-foreground shadow-sm transition-colors hover:bg-white"
                     >
                       <Phone className="size-4 text-primary" aria-hidden="true" />
                       <span>{siteConfig.phone}</span>

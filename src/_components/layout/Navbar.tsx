@@ -66,7 +66,7 @@ export function Navbar() {
       </div>
 
       {/* Subnav row with aligned content */}
-      <div className="w-full bg-secondary">
+      <div className="hidden md:block w-full bg-secondary-subnav border-t border-white/10">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-10">
           <NavbarNav groups={navigationGroups} />
         </div>

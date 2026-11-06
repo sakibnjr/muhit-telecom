@@ -66,7 +66,7 @@ async function CategoryPageContent({ params }: Props) {
       <Container>
         <header className="surface-panel grid items-center gap-6 p-6 shadow-sm sm:p-8 md:grid-cols-[minmax(0,1fr)_220px]">
           <div>
-            <h1 className="page-title">{content.heading}</h1>
+            <h1 className="text-lg font-bold tracking-tight text-foreground sm:text-3xl lg:text-4xl">{content.heading}</h1>
             <p className="page-lede mt-4">{content.intro}</p>
             <Link href="#category-products" className="mt-5 inline-flex min-h-12 items-center rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground shadow-sm transition-colors hover:bg-primary/90">See listed products &amp; enquiry options</Link>
           </div>

@@ -40,10 +40,29 @@ export function CategorySupport({ content }: { content?: CategoryContent }) {
         <p className="mt-3 w-full text-sm leading-7 text-muted-foreground">
           {content?.enquiryHint ?? "Tell us which device or category you are comparing so we can discuss suitable options."} Confirm the exact item, availability and applicable warranty terms before making a purchase.
         </p>
-        <div className="mt-5 flex flex-wrap gap-3">
-          <a href={enquiryUrl} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-11 items-center rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground shadow-sm hover:bg-primary/90">Ask on WhatsApp</a>
-          <a href={siteConfig.address.googleMapsUrl} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-11 items-center rounded-xl border border-border bg-card px-5 py-3 text-sm font-semibold hover:text-primary">Get directions</a>
-          <a href={`tel:${siteConfig.phoneIntl}`} className="inline-flex min-h-11 items-center rounded-xl border border-border bg-card px-5 py-3 text-sm font-semibold hover:text-primary">Call {siteConfig.phone}</a>
+        <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+          <a
+            href={enquiryUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex min-h-11 w-full items-center justify-center rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground shadow-sm transition-colors hover:bg-primary/90 sm:w-auto"
+          >
+            Ask on WhatsApp
+          </a>
+          <a
+            href={siteConfig.address.googleMapsUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex min-h-11 w-full items-center justify-center rounded-xl border border-border bg-card px-5 py-3 text-sm font-semibold transition-colors hover:text-primary sm:w-auto"
+          >
+            Get directions
+          </a>
+          <a
+            href={`tel:${siteConfig.phoneIntl}`}
+            className="inline-flex min-h-11 w-full items-center justify-center rounded-xl border border-border bg-card px-5 py-3 text-sm font-semibold transition-colors hover:text-primary sm:w-auto"
+          >
+            Call {siteConfig.phone}
+          </a>
         </div>
         <nav aria-label="Shopping support" className="mt-6 flex flex-wrap gap-x-6 gap-y-3 text-sm font-semibold text-primary">
           <Link href="/contact" className="hover:underline">Contact & store information</Link>

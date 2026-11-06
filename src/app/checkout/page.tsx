@@ -16,7 +16,7 @@ export default function CheckoutPage() {
     <div className="page-shell">
       <Container>
         <div className="mb-8">
-          <h1 className="page-title page-title-compact">
+          <h1 className="text-lg font-bold tracking-tight text-foreground sm:text-3xl lg:text-4xl">
             Order & Delivery Details
           </h1>
         </div>

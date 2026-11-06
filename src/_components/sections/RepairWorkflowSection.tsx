@@ -74,27 +74,29 @@ export function RepairWorkflowSection() {
           />
           <ol
             aria-label="Repair service steps"
-            className="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-6"
+            className="grid grid-cols-1 gap-3 md:grid-cols-3 md:gap-6"
           >
             {steps.map((step, idx) => (
               <li
                 key={step.title}
-                className="surface-panel relative flex h-full flex-col p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-md sm:p-6"
+                className="surface-panel relative flex h-full items-center gap-4 p-4 shadow-sm transition-all duration-200 after:absolute after:left-12 after:top-full after:h-3 after:w-px after:bg-primary/30 last:after:hidden hover:border-primary/30 hover:shadow-md sm:p-5 md:flex-col md:items-stretch md:gap-0 md:p-6 md:after:hidden md:hover:-translate-y-0.5"
               >
-                <div className="mb-5 flex items-start justify-between">
-                  <span className="relative z-10 flex size-16 items-center justify-center rounded-full border-4 border-card bg-primary text-base font-bold text-primary-foreground shadow-md shadow-primary/20">
+                <div className="relative shrink-0 md:mb-5 md:flex md:items-start md:justify-between">
+                  <span className="absolute -left-1.5 -top-1.5 z-10 flex size-7 items-center justify-center rounded-full border-2 border-card bg-primary text-[11px] font-bold text-primary-foreground shadow-md shadow-primary/20 md:static md:size-16 md:border-4 md:text-base">
                     0{idx + 1}
                   </span>
-                  <div className="size-20 shrink-0 sm:size-24">
+                  <div className="size-16 shrink-0 sm:size-20 md:size-24">
                     <StepArtwork step={idx + 1} />
                   </div>
                 </div>
-                <h3 className="text-base font-bold text-foreground">
-                  {step.title}
-                </h3>
-                <p className="mt-2 text-sm leading-7 text-muted-foreground">
-                  {step.desc}
-                </p>
+                <div className="min-w-0 flex-1 md:flex-none">
+                  <h3 className="text-[15px] font-bold leading-snug text-foreground md:text-base">
+                    {step.title}
+                  </h3>
+                  <p className="mt-1 text-[13px] leading-5 text-muted-foreground md:mt-2 md:text-sm md:leading-7">
+                    {step.desc}
+                  </p>
+                </div>
               </li>
             ))}
           </ol>

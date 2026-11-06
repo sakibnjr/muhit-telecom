@@ -27,7 +27,7 @@ export function ServicesSpotlightSection() {
               </h2>
 
               <p className="text-xs sm:text-sm text-gray-300 leading-relaxed max-w-xl">
-                Cracked OLED display, battery health drain, SIM carrier lock, or liquid-damaged dead motherboards—our experienced engineers diagnose and fix devices using precision stereo microscopes and thermal cameras.
+                Cracked OLED display, battery health drain, SIM carrier lock, or liquid-damaged dead motherboards: our experienced engineers diagnose and fix devices using precision stereo microscopes and thermal cameras.
               </p>
 
               <div className="grid grid-cols-2 gap-3 pt-2 text-xs text-gray-200">

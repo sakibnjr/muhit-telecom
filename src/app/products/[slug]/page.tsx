@@ -98,7 +98,7 @@ async function ProductDetailsContent({ params }: Props) {
                     : "Out of Stock"}
                 </span>
               </div>
-              <h1 className="page-title page-title-compact mt-2">
+              <h1 className="mt-2 text-lg font-bold tracking-tight text-foreground sm:text-2xl lg:text-3xl">
                 {product.title}
               </h1>
               <p className="mt-3 text-base leading-7 text-muted-foreground">

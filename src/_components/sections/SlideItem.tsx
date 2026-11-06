@@ -8,7 +8,7 @@ export interface SlideData {
   imageAlt: string;
   title: string;
   desc: string;
-  primaryBtn: { label: string; href: string };
+  primaryBtn: { label: string; shortLabel?: string; href: string };
   secondaryBtn?: {
     label: string;
     href: string;
@@ -53,23 +53,32 @@ export function SlideItem({
         <Heading className="max-w-full line-clamp-2 text-[0.98rem] font-bold leading-[1.12] tracking-[-0.04em] text-foreground sm:max-w-xl sm:text-2xl md:text-3xl lg:line-clamp-none lg:text-4xl xl:text-5xl">
           {slide.title}
         </Heading>
-        <p className="mt-1 max-w-full line-clamp-1 text-xs leading-[1.35] text-muted-foreground sm:mt-2 sm:max-w-md sm:text-sm sm:leading-5 lg:mt-5 lg:line-clamp-none lg:text-base lg:leading-7">
+        <p className="mt-1 hidden max-w-full line-clamp-1 text-xs sm:block leading-[1.35] text-muted-foreground sm:mt-2 sm:max-w-md sm:text-sm sm:leading-5 lg:mt-5 lg:line-clamp-none lg:text-base lg:leading-7">
           {slide.desc}
         </p>
-        <div className="mt-3 hidden w-full flex-col items-stretch gap-2 sm:mt-4 sm:w-auto sm:flex-row sm:flex-wrap sm:items-center sm:gap-3 lg:mt-6 lg:flex">
+        <div className="mt-2 flex w-full flex-col items-start gap-2 sm:mt-4 sm:flex-row sm:flex-wrap sm:items-center sm:gap-3 lg:mt-6">
           <Link
             href={slide.primaryBtn.href}
-            className="inline-flex min-h-11 w-full items-center justify-center gap-2 rounded-xl bg-primary px-4 py-2.5 text-[0.8125rem] font-semibold text-primary-foreground shadow-sm transition-all hover:-translate-y-0.5 hover:bg-primary/90 hover:shadow-md sm:min-h-12 sm:w-auto sm:px-5 sm:py-3 sm:text-sm"
+            className="relative inline-flex min-h-8 items-center justify-center gap-1 whitespace-nowrap rounded-lg bg-primary px-3 py-1.5 text-xs font-semibold text-primary-foreground shadow-sm transition-all after:absolute after:-inset-2 after:content-[''] hover:bg-primary/90 sm:min-h-12 sm:gap-2 sm:rounded-xl sm:px-5 sm:py-3 sm:text-sm sm:after:hidden sm:hover:-translate-y-0.5 sm:hover:shadow-md"
           >
-            {slide.primaryBtn.label}
-            <ArrowRight className="size-4" aria-hidden="true" />
+            {slide.primaryBtn.shortLabel ? (
+              <>
+                <span className="sm:hidden">{slide.primaryBtn.shortLabel}</span>
+                <span className="hidden sm:inline">
+                  {slide.primaryBtn.label}
+                </span>
+              </>
+            ) : (
+              slide.primaryBtn.label
+            )}
+            <ArrowRight className="size-3 sm:size-4" aria-hidden="true" />
           </Link>
           {slide.secondaryBtn && (
             <Link
               href={slide.secondaryBtn.href}
               target={isWhatsApp ? "_blank" : undefined}
               rel={isWhatsApp ? "noopener noreferrer" : undefined}
-              className="inline-flex min-h-11 w-full items-center justify-center gap-2 rounded-xl border border-border bg-white/90 px-3 py-2.5 text-[0.8125rem] font-semibold text-foreground shadow-sm backdrop-blur-sm transition-colors hover:border-primary/40 hover:bg-white sm:min-h-12 sm:w-auto sm:px-4 sm:py-3 sm:text-sm"
+              className="hidden min-h-12 items-center justify-center gap-2 rounded-xl border border-border bg-white/90 px-4 py-3 text-sm font-semibold text-foreground shadow-sm backdrop-blur-sm transition-colors hover:border-primary/40 hover:bg-white lg:inline-flex"
             >
               {slide.secondaryBtn.iconType === "wrench" && (
                 <Wrench className="size-4 text-primary" aria-hidden="true" />

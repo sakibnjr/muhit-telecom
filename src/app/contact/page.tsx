@@ -20,7 +20,7 @@ export default function ContactPage() {
         <header className="mb-8 rounded-xl border border-border/80 bg-light-section p-6 text-light-section-text shadow-sm sm:p-10 lg:mb-10">
           <div className="flex flex-col justify-between gap-6 lg:flex-row lg:items-center">
             <div className="w-full">
-              <h1 className="page-title">
+              <h1 className="text-lg font-bold tracking-tight text-foreground sm:text-3xl lg:text-4xl">
                 Let’s talk tech.
               </h1>
               <p className="page-lede mt-4">

@@ -9,7 +9,7 @@ export default function NotFound() {
       <Container>
         <div className="surface-panel mx-auto max-w-lg space-y-4 p-8 text-center shadow-sm sm:p-12">
           <span className="block text-6xl font-bold tracking-tight text-primary">404</span>
-          <h1 className="page-title page-title-compact">
+          <h1 className="text-lg font-bold tracking-tight text-foreground sm:text-3xl lg:text-4xl">
             Page Not Found!
           </h1>
           <p className="text-base leading-7 text-muted-foreground">

@@ -17,7 +17,7 @@ export default function TrackOrderPage() {
     <div className="page-shell flex items-center">
       <Container>
         <div className="text-center w-full mb-8">
-          <h1 className="page-title page-title-compact">
+          <h1 className="text-lg font-bold tracking-tight text-foreground sm:text-3xl lg:text-4xl">
             Track Your Order
           </h1>
           <p className="mt-3 text-base leading-7 text-muted-foreground">

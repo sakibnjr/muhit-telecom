@@ -62,7 +62,7 @@ async function ServicePageContent({ params }: Props) {
       <ServiceJsonLd content={content} />
       <Container>
         <header className="mb-10 w-full">
-          <h1 className="page-title">{content.title}</h1>
+          <h1 className="text-lg font-bold tracking-tight text-foreground sm:text-3xl lg:text-4xl">{content.title}</h1>
           <p lang="bn" className="mt-3 text-base text-muted-foreground">{service.title_bn}</p>
         </header>
         <div className="grid items-start gap-8 lg:grid-cols-[minmax(0,2fr)_minmax(320px,1fr)] lg:gap-10">

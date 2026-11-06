@@ -27,7 +27,7 @@ export default function AboutPage() {
         {/* Hero Section */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center mb-16">
           <div className="lg:col-span-6 space-y-4">
-            <h1 className="page-title">
+            <h1 className="text-lg font-bold tracking-tight text-foreground sm:text-3xl lg:text-4xl">
               Trusted Tech Gadget Showroom & Certified Repair Lab in Hili
             </h1>
             <p className="text-base leading-7 text-muted-foreground">

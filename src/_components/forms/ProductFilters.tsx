@@ -16,7 +16,7 @@ interface ProductFiltersProps {
 }
 
 const optionClass =
-  'inline-flex min-h-9 shrink-0 cursor-pointer items-center gap-2 rounded-lg px-2 text-sm text-foreground hover:bg-muted/70 lg:w-full lg:shrink lg:rounded-md';
+  'flex min-h-9 w-full cursor-pointer items-center gap-2.5 rounded-lg px-2 py-1 text-sm text-foreground hover:bg-muted/70';
 
 export function ProductFilters({ brands, resultCount, basePath = '/shop', showCategories = true }: ProductFiltersProps) {
   const router = useRouter();
@@ -144,14 +144,14 @@ export function ProductFilters({ brands, resultCount, basePath = '/shop', showCa
         onToggle={() => toggleSection('availability')}
         activeCount={searchParams.getAll('availability').length + searchParams.getAll('filter').length}
       >
-        <div className="flex max-w-full gap-1 overflow-x-auto no-scrollbar [scrollbar-width:none] [&::-webkit-scrollbar]:hidden lg:flex-col lg:overflow-visible">
+        <div className="flex flex-col gap-0.5">
           <label className={optionClass}>
             <input type="checkbox" className="size-4 shrink-0 cursor-pointer accent-primary" checked={searchParams.getAll('availability').includes('in-stock')} onChange={() => toggleParam('availability', 'in-stock')} />
-            <span className="whitespace-nowrap lg:whitespace-normal">In stock</span>
+            <span className="truncate">In stock</span>
           </label>
           <label className={optionClass}>
             <input type="checkbox" className="size-4 shrink-0 cursor-pointer accent-primary" checked={searchParams.getAll('filter').includes('deals')} onChange={() => toggleParam('filter', 'deals')} />
-            <span className="whitespace-nowrap lg:whitespace-normal">Hot deals</span>
+            <span className="truncate">Hot deals</span>
           </label>
         </div>
       </FilterSection>

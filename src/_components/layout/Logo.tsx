@@ -13,7 +13,7 @@ export function Logo({ className = "" }: LogoProps) {
     >
       <Image
         src="/logo-light.svg"
-        alt="Muhit Telecom — gadgets and mobile repair in Hili, Dinajpur"
+        alt="Muhit Telecom - gadgets and mobile repair in Hili, Dinajpur"
         width={675}
         height={225}
         sizes="(min-width: 768px) 156px, 126px"

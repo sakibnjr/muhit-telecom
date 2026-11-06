@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { pageMetadata } from "@/_components/seo/metadata";
 import { Suspense } from "react";
+import { pageMetadata } from "@/_components/seo/metadata";
 import { Container } from "@/_components/layout/Container";
 import { ShopContent } from "@/_components/sections/ShopContent";
+import { ShopHeader } from "@/_components/sections/ShopHeader";
 
 export const metadata: Metadata = pageMetadata({
   title: "Gadgets & Accessories | Muhit Telecom",
@@ -26,17 +27,24 @@ interface ShopPageProps {
 
 async function ShopAsyncContent({ searchParams }: ShopPageProps) {
   const params = await searchParams;
+  const isDeals = Array.isArray(params.filter)
+    ? params.filter.includes("deals")
+    : params.filter === "deals";
+
   return (
-    <ShopContent
-      category={params.category}
-      sort={params.sort}
-      filter={params.filter}
-      q={params.q}
-      brand={params.brand}
-      price={params.price}
-      availability={params.availability}
-      page={params.page}
-    />
+    <>
+      <ShopHeader isDeals={isDeals} />
+      <ShopContent
+        category={params.category}
+        sort={params.sort}
+        filter={params.filter}
+        q={params.q}
+        brand={params.brand}
+        price={params.price}
+        availability={params.availability}
+        page={params.page}
+      />
+    </>
   );
 }
 
@@ -44,16 +52,6 @@ export default function ShopPage({ searchParams }: ShopPageProps) {
   return (
     <div className="page-shell">
       <Container>
-        <header className="mb-8 w-full">
-          <h1 className="page-title">
-            All Genuine Gadgets & Accessories
-          </h1>
-          <p className="page-lede mt-3">
-            Handpicked tech gear with authentic warranty in Hakimpur (Hili) and
-            across Bangladesh.
-          </p>
-        </header>
-
         <Suspense
           fallback={
             <div className="py-12 text-center text-sm text-muted-foreground">

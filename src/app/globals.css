@@ -9,6 +9,7 @@
     --primary-foreground: #ffffff;
     --secondary: #05101a;
     --secondary-foreground: #ffffff;
+    --secondary-subnav: #12161b;
     --accent: #9a6700;
     --accent-foreground: #ffffff;
     --muted: #edf2f7;
@@ -28,6 +29,7 @@
     --color-primary-foreground: var(--primary-foreground);
     --color-secondary: var(--secondary);
     --color-secondary-foreground: var(--secondary-foreground);
+    --color-secondary-subnav: var(--secondary-subnav);
     --color-accent: var(--accent);
     --color-accent-foreground: var(--accent-foreground);
     --color-muted: var(--muted);
@@ -95,16 +97,52 @@ main > .route-breadcrumbs + .page-shell {
     padding-top: 0;
 }
 
+@utility page-title {
+    color: var(--foreground);
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    line-height: 1.25;
+
+    @variant sm {
+        font-size: clamp(2rem, 3.4vw, 3.25rem);
+        letter-spacing: -0.035em;
+        line-height: 1.08;
+    }
+}
+
+@utility page-title-compact {
+    font-size: 1.125rem;
+
+    @variant sm {
+        font-size: clamp(1.8rem, 2.6vw, 2.65rem);
+    }
+}
+
 .page-title {
     color: var(--foreground);
-    font-size: clamp(2rem, 3.4vw, 3.25rem);
-    font-weight: 750;
-    letter-spacing: -0.035em;
-    line-height: 1.08;
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    line-height: 1.25;
+}
+
+@media (min-width: 640px) {
+    .page-title {
+        font-size: clamp(2rem, 3.4vw, 3.25rem);
+        letter-spacing: -0.035em;
+        line-height: 1.08;
+    }
 }
 
 .page-title-compact {
-    font-size: clamp(1.8rem, 2.6vw, 2.65rem);
+    font-size: 1.125rem;
+}
+
+@media (min-width: 640px) {
+    .page-title-compact {
+        font-size: clamp(1.8rem, 2.6vw, 2.65rem);
+    }
 }
 
 .page-lede {

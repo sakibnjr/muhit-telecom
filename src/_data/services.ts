@@ -239,7 +239,7 @@ export const servicesData: ServiceItem[] = [
     tagline:
       "Authentic tech gadgets & PC peripherals at wholesale-friendly prices",
     description:
-      "The largest gadget and computer peripherals inventory in Hakimpur (Hili)—Wi-Fi routers, fast chargers, keyboards, optical mice, desk mats, and cables.",
+      "The largest gadget and computer peripherals inventory in Hakimpur (Hili): Wi-Fi routers, fast chargers, keyboards, optical mice, desk mats, and cables.",
     estimatedTime: "Instant Pickup",
     startingPrice: 100,
     warrantyDays: 365,

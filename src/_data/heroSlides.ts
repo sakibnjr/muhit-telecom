@@ -10,7 +10,11 @@ export const heroSlides: SlideData[] = [
       "Headphones, smartwatch, earbuds, charger and power bank arranged around a blue and white shopping bag",
     title: "Mobile Phones & Everyday Gadgets",
     desc: "Shop genuine smartphones and mobile accessories at Muhit Telecom in Hili.",
-    primaryBtn: { label: "Explore all categories", href: "/categories" },
+    primaryBtn: {
+      label: "Explore all categories",
+      shortLabel: "Shop now",
+      href: "/categories",
+    },
     secondaryBtn: {
       label: "Book a repair",
       href: "/services",
@@ -28,6 +32,7 @@ export const heroSlides: SlideData[] = [
     desc: "Explore fitness tracking, Bluetooth calling and modern smart watch features.",
     primaryBtn: {
       label: "Explore smart watches",
+      shortLabel: "Smart watches",
       href: "/categories/smart-watches",
     },
     secondaryBtn: {
@@ -43,7 +48,11 @@ export const heroSlides: SlideData[] = [
       "Black over-ear headphones, white TWS earbuds and a navy neckband on blue and white podiums",
     title: "Headsets & Wireless Earbuds",
     desc: "Shop TWS, neckbands and wired earphones for calls and music.",
-    primaryBtn: { label: "Explore headsets", href: "/categories/headsets" },
+    primaryBtn: {
+      label: "Explore headsets",
+      shortLabel: "Headsets",
+      href: "/categories/headsets",
+    },
     secondaryBtn: {
       label: "Discover TWS",
       href: "/categories/tws",
@@ -59,6 +68,7 @@ export const heroSlides: SlideData[] = [
     desc: "Browse fast chargers, adapters, cables and power banks for your phone.",
     primaryBtn: {
       label: "Adapters & chargers",
+      shortLabel: "Chargers",
       href: "/categories/adapters-chargers",
     },
     secondaryBtn: {
@@ -74,7 +84,11 @@ export const heroSlides: SlideData[] = [
       "Opened smartphone, replacement battery, precision tools, microscope and computer motherboard on a repair workbench",
     title: "Mobile & Computer Repair in Hili",
     desc: "Get mobile and computer diagnostics, screen replacement and battery repair.",
-    primaryBtn: { label: "Explore repair services", href: "/services" },
+    primaryBtn: {
+      label: "Explore repair services",
+      shortLabel: "Repair services",
+      href: "/services",
+    },
     secondaryBtn: {
       label: "01910-755835",
       href: "tel:+8801910755835",
@@ -88,7 +102,11 @@ export const heroSlides: SlideData[] = [
       "Nationwide delivery illustration with a Bangladesh map, blue van, scooter and parcels",
     title: "Delivery Across Bangladesh",
     desc: "Order online with local pickup in Hili and cash on delivery nationwide.",
-    primaryBtn: { label: "Shop all gadgets", href: "/shop" },
+    primaryBtn: {
+      label: "Shop all gadgets",
+      shortLabel: "Shop now",
+      href: "/shop",
+    },
     secondaryBtn: {
       label: "Delivery enquiries",
       href: "/contact",

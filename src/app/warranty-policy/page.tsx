@@ -20,7 +20,7 @@ export default function WarrantyPolicyPage() {
             <div className="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-600 flex items-center justify-center mx-auto mb-3">
               <ShieldCheck className="w-6 h-6" />
             </div>
-            <h1 className="page-title page-title-compact">
+            <h1 className="text-lg font-bold tracking-tight text-foreground sm:text-3xl lg:text-4xl">
               Warranty & Return Policy
             </h1>
             <p className="mt-2 text-sm text-muted-foreground">
@@ -49,9 +49,9 @@ export default function WarrantyPolicyPage() {
                 <span>2. Official Manufacturer Brand Warranty</span>
               </h2>
               <p className="text-muted-foreground">
-                All branded equipment—including TP-Link routers (1 Year), Baseus
+                All branded equipment, including TP-Link routers (1 Year), Baseus
                 GaN chargers and power banks (6 Months), and Fantech/Havit
-                peripherals—comes with manufacturer warranty. Please preserve
+                peripherals, comes with manufacturer warranty. Please preserve
                 original packaging and invoice for claims.
               </p>
             </div>

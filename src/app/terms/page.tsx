@@ -18,7 +18,7 @@ export default function TermsPage() {
         <article className="surface-panel w-full space-y-7 p-6 text-sm leading-7 text-foreground/90 shadow-sm sm:p-10 lg:p-12">
           <header className="border-b border-border/70 pb-6 text-center">
             <FileText className="w-10 h-10 text-primary mx-auto mb-2" />
-            <h1 className="page-title page-title-compact">
+            <h1 className="text-lg font-bold tracking-tight text-foreground sm:text-3xl lg:text-4xl">
               Terms & Conditions
             </h1>
             <p className="mt-2 text-sm text-muted-foreground">
