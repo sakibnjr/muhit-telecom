@@ -1,5 +1,5 @@
-import { catalogProducts } from "@/_data/catalogProducts";
-import type { Product } from "@/_types";
+import { catalogProducts } from "./catalogProducts";
+import type { Product } from "../_types";
 
 export const initialFeaturedProducts: Product[] = [
   // --- Popular Picks (from Mockup) ---
