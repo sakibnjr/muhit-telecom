@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 
-export const siteUrl = "https://muhit-telecom.com";
+export const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ||
+  "https://muhit-telecom.sakibnjr.workers.dev";
 export const defaultTitle =
   "Muhit Telecom | Authentic Gadgets & Electronics Shop in Bangladesh";
 export const defaultDescription =
