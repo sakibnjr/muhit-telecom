@@ -4,17 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import {
-  X,
-  Phone,
-  MessageSquare,
-  ShoppingBag,
-  Flame,
-  Sparkles,
-  MapPin,
-  ShieldCheck,
-  Store,
-  Home,
-  PackageSearch,
+  X, Phone, MessageSquare, ShoppingBag, Flame, Sparkles, MapPin, ShieldCheck, Store, Home, PackageSearch
 } from "lucide-react";
 import { siteConfig } from "@/_data/siteConfig";
 import type { NavigationGroup } from "@/_components/layout/CatalogNavigation";

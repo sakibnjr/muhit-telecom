@@ -11,8 +11,8 @@ export const catalogProducts: Product[] = [
     "price": 950,
     "regularPrice": 1200,
     "stock": 15,
-    "rating": 4.4,
-    "reviewsCount": 108,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/adapters-chargers/Anker-Nano-II-30W-Charger-A2665.webp",
     "images": [
       "/images/catalog/adapters-chargers/Anker-Nano-II-30W-Charger-A2665.webp"
@@ -47,8 +47,8 @@ export const catalogProducts: Product[] = [
     "price": 950,
     "regularPrice": 1200,
     "stock": 15,
-    "rating": 4.5,
-    "reviewsCount": 126,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/adapters-chargers/Anker-PowerLine-III-USB-C-Cable-A8852.webp",
     "images": [
       "/images/catalog/adapters-chargers/Anker-PowerLine-III-USB-C-Cable-A8852.webp"
@@ -83,8 +83,8 @@ export const catalogProducts: Product[] = [
     "price": 950,
     "regularPrice": 1200,
     "stock": 15,
-    "rating": 4.5,
-    "reviewsCount": 111,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/adapters-chargers/Baseus-Cafule-USB-C-Cable-CATKLF.webp",
     "images": [
       "/images/catalog/adapters-chargers/Baseus-Cafule-USB-C-Cable-CATKLF.webp"
@@ -119,8 +119,8 @@ export const catalogProducts: Product[] = [
     "price": 950,
     "regularPrice": 1200,
     "stock": 15,
-    "rating": 4.6,
-    "reviewsCount": 99,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/adapters-chargers/Samsung-EP-TA800-25W-Adapter.webp",
     "images": [
       "/images/catalog/adapters-chargers/Samsung-EP-TA800-25W-Adapter.webp"
@@ -155,8 +155,8 @@ export const catalogProducts: Product[] = [
     "price": 950,
     "regularPrice": 1200,
     "stock": 15,
-    "rating": 4.4,
-    "reviewsCount": 108,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/adapters-chargers/Ugreen-Nexode-65W-CD244-Charger.webp",
     "images": [
       "/images/catalog/adapters-chargers/Ugreen-Nexode-65W-CD244-Charger.webp"
@@ -191,8 +191,8 @@ export const catalogProducts: Product[] = [
     "price": 2850,
     "regularPrice": 3450,
     "stock": 15,
-    "rating": 4.7,
-    "reviewsCount": 117,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/headsets/Edifier-W600BT-Wireless-Headphones.webp",
     "images": [
       "/images/catalog/headsets/Edifier-W600BT-Wireless-Headphones.webp"
@@ -227,8 +227,8 @@ export const catalogProducts: Product[] = [
     "price": 2850,
     "regularPrice": 3450,
     "stock": 15,
-    "rating": 4.5,
-    "reviewsCount": 96,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/headsets/Havit-H2002D-Gaming-Headset.webp",
     "images": [
       "/images/catalog/headsets/Havit-H2002D-Gaming-Headset.webp"
@@ -263,8 +263,8 @@ export const catalogProducts: Product[] = [
     "price": 2850,
     "regularPrice": 3450,
     "stock": 15,
-    "rating": 4.7,
-    "reviewsCount": 117,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/headsets/JBL-Tune-520BT-Wireless-Headphones.webp",
     "images": [
       "/images/catalog/headsets/JBL-Tune-520BT-Wireless-Headphones.webp"
@@ -299,8 +299,8 @@ export const catalogProducts: Product[] = [
     "price": 2850,
     "regularPrice": 3450,
     "stock": 15,
-    "rating": 4.3,
-    "reviewsCount": 90,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/headsets/Logitech-H390-USB-Headset.webp",
     "images": [
       "/images/catalog/headsets/Logitech-H390-USB-Headset.webp"
@@ -335,8 +335,8 @@ export const catalogProducts: Product[] = [
     "price": 2850,
     "regularPrice": 3450,
     "stock": 15,
-    "rating": 4.6,
-    "reviewsCount": 114,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/headsets/Sony-WH-CH520-Wireless-Headphones.webp",
     "images": [
       "/images/catalog/headsets/Sony-WH-CH520-Wireless-Headphones.webp"
@@ -371,8 +371,8 @@ export const catalogProducts: Product[] = [
     "price": 1850,
     "regularPrice": 2200,
     "stock": 15,
-    "rating": 4.4,
-    "reviewsCount": 108,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/home-appliances/Havells-Stealth-Air-Ceiling-Fan.webp",
     "images": [
       "/images/catalog/home-appliances/Havells-Stealth-Air-Ceiling-Fan.webp"
@@ -407,8 +407,8 @@ export const catalogProducts: Product[] = [
     "price": 1850,
     "regularPrice": 2200,
     "stock": 15,
-    "rating": 4.6,
-    "reviewsCount": 99,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/home-appliances/Panasonic-SR-W18-Rice-Cooker.webp",
     "images": [
       "/images/catalog/home-appliances/Panasonic-SR-W18-Rice-Cooker.webp"
@@ -443,8 +443,8 @@ export const catalogProducts: Product[] = [
     "price": 1850,
     "regularPrice": 2200,
     "stock": 15,
-    "rating": 4.3,
-    "reviewsCount": 105,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/home-appliances/Philips-HD9318-Electric-Kettle.webp",
     "images": [
       "/images/catalog/home-appliances/Philips-HD9318-Electric-Kettle.webp"
@@ -479,8 +479,8 @@ export const catalogProducts: Product[] = [
     "price": 1850,
     "regularPrice": 2200,
     "stock": 15,
-    "rating": 4.6,
-    "reviewsCount": 84,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/home-appliances/Philips-HI-114-Dry-Iron.webp",
     "images": [
       "/images/catalog/home-appliances/Philips-HI-114-Dry-Iron.webp"
@@ -515,8 +515,8 @@ export const catalogProducts: Product[] = [
     "price": 1850,
     "regularPrice": 2200,
     "stock": 15,
-    "rating": 4.5,
-    "reviewsCount": 111,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/home-appliances/Xiaomi-Smart-Air-Purifier-4-Lite.webp",
     "images": [
       "/images/catalog/home-appliances/Xiaomi-Smart-Air-Purifier-4-Lite.webp"
@@ -551,8 +551,8 @@ export const catalogProducts: Product[] = [
     "price": 1850,
     "regularPrice": 2200,
     "stock": 15,
-    "rating": 4.4,
-    "reviewsCount": 123,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/lifestyle/Baseus-Intelligent-Desktop-Lamp-DGZG.webp",
     "images": [
       "/images/catalog/lifestyle/Baseus-Intelligent-Desktop-Lamp-DGZG.webp"
@@ -587,8 +587,8 @@ export const catalogProducts: Product[] = [
     "price": 1850,
     "regularPrice": 2200,
     "stock": 15,
-    "rating": 4.3,
-    "reviewsCount": 105,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/lifestyle/Hoco-HH1-Portable-Handheld-Fan.webp",
     "images": [
       "/images/catalog/lifestyle/Hoco-HH1-Portable-Handheld-Fan.webp"
@@ -623,8 +623,8 @@ export const catalogProducts: Product[] = [
     "price": 1850,
     "regularPrice": 2200,
     "stock": 15,
-    "rating": 4.6,
-    "reviewsCount": 144,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/lifestyle/Soundcore-Work-Buds-Conference-Speakerphone.webp",
     "images": [
       "/images/catalog/lifestyle/Soundcore-Work-Buds-Conference-Speakerphone.webp"
@@ -659,8 +659,8 @@ export const catalogProducts: Product[] = [
     "price": 1850,
     "regularPrice": 2200,
     "stock": 15,
-    "rating": 4.7,
-    "reviewsCount": 102,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/lifestyle/Xiaomi-Mi-Portable-Air-Pump-2.webp",
     "images": [
       "/images/catalog/lifestyle/Xiaomi-Mi-Portable-Air-Pump-2.webp"
@@ -695,8 +695,8 @@ export const catalogProducts: Product[] = [
     "price": 1850,
     "regularPrice": 2200,
     "stock": 15,
-    "rating": 4.6,
-    "reviewsCount": 129,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/lifestyle/Xiaomi-Mijia-Portable-Photo-Printer-1S.webp",
     "images": [
       "/images/catalog/lifestyle/Xiaomi-Mijia-Portable-Photo-Printer-1S.webp"
@@ -731,8 +731,8 @@ export const catalogProducts: Product[] = [
     "price": 14499,
     "regularPrice": 15999,
     "stock": 15,
-    "rating": 4.3,
-    "reviewsCount": 90,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/mobile-phones/Infinix-Hot-40i-8GB-128GB.webp",
     "images": [
       "/images/catalog/mobile-phones/Infinix-Hot-40i-8GB-128GB.webp"
@@ -767,8 +767,8 @@ export const catalogProducts: Product[] = [
     "price": 2450,
     "regularPrice": 2750,
     "stock": 15,
-    "rating": 4.4,
-    "reviewsCount": 93,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/mobile-phones/Nokia-105-4G-Feature-Phone.webp",
     "images": [
       "/images/catalog/mobile-phones/Nokia-105-4G-Feature-Phone.webp"
@@ -803,8 +803,8 @@ export const catalogProducts: Product[] = [
     "price": 10999,
     "regularPrice": 11999,
     "stock": 15,
-    "rating": 4.7,
-    "reviewsCount": 102,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/mobile-phones/Tecno-Spark-Go-2024-4GB-128GB.webp",
     "images": [
       "/images/catalog/mobile-phones/Tecno-Spark-Go-2024-4GB-128GB.webp"
@@ -839,8 +839,8 @@ export const catalogProducts: Product[] = [
     "price": 22999,
     "regularPrice": 24999,
     "stock": 15,
-    "rating": 4.3,
-    "reviewsCount": 105,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/mobile-phones/Xiaomi-Redmi-Note-13-8GB-256GB.webp",
     "images": [
       "/images/catalog/mobile-phones/Xiaomi-Redmi-Note-13-8GB-256GB.webp"
@@ -875,8 +875,8 @@ export const catalogProducts: Product[] = [
     "price": 1650,
     "regularPrice": 1950,
     "stock": 15,
-    "rating": 4.6,
-    "reviewsCount": 99,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/neckbands/Hoco-ES62-Bluetooth-Neckband.webp",
     "images": [
       "/images/catalog/neckbands/Hoco-ES62-Bluetooth-Neckband.webp"
@@ -911,8 +911,8 @@ export const catalogProducts: Product[] = [
     "price": 1650,
     "regularPrice": 1950,
     "stock": 15,
-    "rating": 4.5,
-    "reviewsCount": 96,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/neckbands/OnePlus-Bullets-Wireless-Z2.webp",
     "images": [
       "/images/catalog/neckbands/OnePlus-Bullets-Wireless-Z2.webp"
@@ -947,8 +947,8 @@ export const catalogProducts: Product[] = [
     "price": 1650,
     "regularPrice": 1950,
     "stock": 15,
-    "rating": 4.7,
-    "reviewsCount": 117,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/neckbands/QCY-Crossky-Link-Open-Ear-Neckband.webp",
     "images": [
       "/images/catalog/neckbands/QCY-Crossky-Link-Open-Ear-Neckband.webp"
@@ -983,8 +983,8 @@ export const catalogProducts: Product[] = [
     "price": 1650,
     "regularPrice": 1950,
     "stock": 15,
-    "rating": 4.3,
-    "reviewsCount": 90,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/neckbands/boAt-Rockerz-255-Pro-Plus.webp",
     "images": [
       "/images/catalog/neckbands/boAt-Rockerz-255-Pro-Plus.webp"
@@ -1019,8 +1019,8 @@ export const catalogProducts: Product[] = [
     "price": 1650,
     "regularPrice": 1950,
     "stock": 15,
-    "rating": 4.5,
-    "reviewsCount": 81,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/neckbands/realme-Buds-Wireless-3.webp",
     "images": [
       "/images/catalog/neckbands/realme-Buds-Wireless-3.webp"
@@ -1055,8 +1055,8 @@ export const catalogProducts: Product[] = [
     "price": 450,
     "regularPrice": 650,
     "stock": 15,
-    "rating": 4.6,
-    "reviewsCount": 114,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/phone-accessories/Baseus-SUYL-XP01-Car-Phone-Holder.webp",
     "images": [
       "/images/catalog/phone-accessories/Baseus-SUYL-XP01-Car-Phone-Holder.webp"
@@ -1091,8 +1091,8 @@ export const catalogProducts: Product[] = [
     "price": 450,
     "regularPrice": 650,
     "stock": 15,
-    "rating": 4.7,
-    "reviewsCount": 87,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/phone-accessories/PopSockets-PopGrip-Black.webp",
     "images": [
       "/images/catalog/phone-accessories/PopSockets-PopGrip-Black.webp"
@@ -1127,8 +1127,8 @@ export const catalogProducts: Product[] = [
     "price": 450,
     "regularPrice": 650,
     "stock": 15,
-    "rating": 4.7,
-    "reviewsCount": 117,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/phone-accessories/Spigen-Tough-Armor-Galaxy-A15-Case.webp",
     "images": [
       "/images/catalog/phone-accessories/Spigen-Tough-Armor-Galaxy-A15-Case.webp"
@@ -1163,8 +1163,8 @@ export const catalogProducts: Product[] = [
     "price": 450,
     "regularPrice": 650,
     "stock": 15,
-    "rating": 4.3,
-    "reviewsCount": 120,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/phone-accessories/Ugreen-USB-C-to-3.5mm-Adapter-50597.webp",
     "images": [
       "/images/catalog/phone-accessories/Ugreen-USB-C-to-3.5mm-Adapter-50597.webp"
@@ -1199,8 +1199,8 @@ export const catalogProducts: Product[] = [
     "price": 450,
     "regularPrice": 650,
     "stock": 15,
-    "rating": 4.4,
-    "reviewsCount": 123,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/phone-accessories/Whitestone-Tempered-Glass-Galaxy-A15.webp",
     "images": [
       "/images/catalog/phone-accessories/Whitestone-Tempered-Glass-Galaxy-A15.webp"
@@ -1235,8 +1235,8 @@ export const catalogProducts: Product[] = [
     "price": 2150,
     "regularPrice": 2650,
     "stock": 15,
-    "rating": 4.5,
-    "reviewsCount": 96,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/power-banks/Anker-PowerCore-10000-A1263.webp",
     "images": [
       "/images/catalog/power-banks/Anker-PowerCore-10000-A1263.webp"
@@ -1271,8 +1271,8 @@ export const catalogProducts: Product[] = [
     "price": 2150,
     "regularPrice": 2650,
     "stock": 15,
-    "rating": 4.4,
-    "reviewsCount": 93,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/power-banks/Baseus-Adaman-65W-20000mAh.webp",
     "images": [
       "/images/catalog/power-banks/Baseus-Adaman-65W-20000mAh.webp"
@@ -1307,8 +1307,8 @@ export const catalogProducts: Product[] = [
     "price": 2150,
     "regularPrice": 2650,
     "stock": 15,
-    "rating": 4.6,
-    "reviewsCount": 114,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/power-banks/Remax-RPP-153-20000mAh-Power-Bank.webp",
     "images": [
       "/images/catalog/power-banks/Remax-RPP-153-20000mAh-Power-Bank.webp"
@@ -1343,8 +1343,8 @@ export const catalogProducts: Product[] = [
     "price": 2150,
     "regularPrice": 2650,
     "stock": 15,
-    "rating": 4.5,
-    "reviewsCount": 111,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/power-banks/Ugreen-PB205-25000mAh-Power-Bank.webp",
     "images": [
       "/images/catalog/power-banks/Ugreen-PB205-25000mAh-Power-Bank.webp"
@@ -1379,8 +1379,8 @@ export const catalogProducts: Product[] = [
     "price": 2150,
     "regularPrice": 2650,
     "stock": 15,
-    "rating": 4.5,
-    "reviewsCount": 111,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/power-banks/Xiaomi-22-5W-10000mAh-Power-Bank.webp",
     "images": [
       "/images/catalog/power-banks/Xiaomi-22-5W-10000mAh-Power-Bank.webp"
@@ -1415,8 +1415,8 @@ export const catalogProducts: Product[] = [
     "price": 2250,
     "regularPrice": 2700,
     "stock": 15,
-    "rating": 4.6,
-    "reviewsCount": 84,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/rechargeable-fans/Baseus-CXTM-01-Clip-Fan.webp",
     "images": [
       "/images/catalog/rechargeable-fans/Baseus-CXTM-01-Clip-Fan.webp"
@@ -1451,8 +1451,8 @@ export const catalogProducts: Product[] = [
     "price": 2250,
     "regularPrice": 2700,
     "stock": 15,
-    "rating": 4.5,
-    "reviewsCount": 111,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/rechargeable-fans/Hoco-HX62-Rechargeable-Table-Fan.webp",
     "images": [
       "/images/catalog/rechargeable-fans/Hoco-HX62-Rechargeable-Table-Fan.webp"
@@ -1487,8 +1487,8 @@ export const catalogProducts: Product[] = [
     "price": 2250,
     "regularPrice": 2700,
     "stock": 15,
-    "rating": 4.4,
-    "reviewsCount": 93,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/rechargeable-fans/Jisulife-FA26-Portable-Fan.webp",
     "images": [
       "/images/catalog/rechargeable-fans/Jisulife-FA26-Portable-Fan.webp"
@@ -1523,8 +1523,8 @@ export const catalogProducts: Product[] = [
     "price": 2250,
     "regularPrice": 2700,
     "stock": 15,
-    "rating": 4.3,
-    "reviewsCount": 120,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/rechargeable-fans/Remax-F31-Portable-Rechargeable-Fan.webp",
     "images": [
       "/images/catalog/rechargeable-fans/Remax-F31-Portable-Rechargeable-Fan.webp"
@@ -1559,8 +1559,8 @@ export const catalogProducts: Product[] = [
     "price": 2250,
     "regularPrice": 2700,
     "stock": 15,
-    "rating": 4.3,
-    "reviewsCount": 75,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/rechargeable-fans/Xiaomi-Smartmi-Fan-3.webp",
     "images": [
       "/images/catalog/rechargeable-fans/Xiaomi-Smartmi-Fan-3.webp"
@@ -1595,8 +1595,8 @@ export const catalogProducts: Product[] = [
     "price": 3250,
     "regularPrice": 3850,
     "stock": 15,
-    "rating": 4.3,
-    "reviewsCount": 90,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/smart-watches/Amazfit-Bip-5-Smart-Watch.webp",
     "images": [
       "/images/catalog/smart-watches/Amazfit-Bip-5-Smart-Watch.webp"
@@ -1631,8 +1631,8 @@ export const catalogProducts: Product[] = [
     "price": 3250,
     "regularPrice": 3850,
     "stock": 15,
-    "rating": 4.7,
-    "reviewsCount": 102,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/smart-watches/Haylou-Solar-LS05-Smart-Watch.webp",
     "images": [
       "/images/catalog/smart-watches/Haylou-Solar-LS05-Smart-Watch.webp"
@@ -1667,8 +1667,8 @@ export const catalogProducts: Product[] = [
     "price": 3250,
     "regularPrice": 3850,
     "stock": 15,
-    "rating": 4.5,
-    "reviewsCount": 111,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/smart-watches/Huawei-Band-9-Fitness-Smart-Band.webp",
     "images": [
       "/images/catalog/smart-watches/Huawei-Band-9-Fitness-Smart-Band.webp"
@@ -1703,8 +1703,8 @@ export const catalogProducts: Product[] = [
     "price": 3250,
     "regularPrice": 3850,
     "stock": 15,
-    "rating": 4.7,
-    "reviewsCount": 117,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/smart-watches/Noise-ColorFit-Pulse-3-Smart-Watch.webp",
     "images": [
       "/images/catalog/smart-watches/Noise-ColorFit-Pulse-3-Smart-Watch.webp"
@@ -1739,8 +1739,8 @@ export const catalogProducts: Product[] = [
     "price": 3250,
     "regularPrice": 3850,
     "stock": 15,
-    "rating": 4.5,
-    "reviewsCount": 96,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/smart-watches/Xiaomi-Redmi-Watch-3-Active.webp",
     "images": [
       "/images/catalog/smart-watches/Xiaomi-Redmi-Watch-3-Active.webp"
@@ -1775,8 +1775,8 @@ export const catalogProducts: Product[] = [
     "price": 3150,
     "regularPrice": 3800,
     "stock": 15,
-    "rating": 4.7,
-    "reviewsCount": 117,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/speakers/Anker-Soundcore-2-Portable-Speaker.webp",
     "images": [
       "/images/catalog/speakers/Anker-Soundcore-2-Portable-Speaker.webp"
@@ -1811,8 +1811,8 @@ export const catalogProducts: Product[] = [
     "price": 3150,
     "regularPrice": 3800,
     "stock": 15,
-    "rating": 4.4,
-    "reviewsCount": 108,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/speakers/Hoco-HC9-Mini-Bluetooth-Speaker.webp",
     "images": [
       "/images/catalog/speakers/Hoco-HC9-Mini-Bluetooth-Speaker.webp"
@@ -1847,8 +1847,8 @@ export const catalogProducts: Product[] = [
     "price": 3150,
     "regularPrice": 3800,
     "stock": 15,
-    "rating": 4.5,
-    "reviewsCount": 96,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/speakers/JBL-Flip-6-Portable-Speaker.webp",
     "images": [
       "/images/catalog/speakers/JBL-Flip-6-Portable-Speaker.webp"
@@ -1883,8 +1883,8 @@ export const catalogProducts: Product[] = [
     "price": 3150,
     "regularPrice": 3800,
     "stock": 15,
-    "rating": 4.4,
-    "reviewsCount": 108,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/speakers/Sony-SRS-XB13-Bluetooth-Speaker.webp",
     "images": [
       "/images/catalog/speakers/Sony-SRS-XB13-Bluetooth-Speaker.webp"
@@ -1919,8 +1919,8 @@ export const catalogProducts: Product[] = [
     "price": 3150,
     "regularPrice": 3800,
     "stock": 15,
-    "rating": 4.5,
-    "reviewsCount": 126,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/speakers/Xiaomi-Mi-Compact-Bluetooth-Speaker-2.webp",
     "images": [
       "/images/catalog/speakers/Xiaomi-Mi-Compact-Bluetooth-Speaker-2.webp"
@@ -1955,8 +1955,8 @@ export const catalogProducts: Product[] = [
     "price": 2190,
     "regularPrice": 2650,
     "stock": 15,
-    "rating": 4.6,
-    "reviewsCount": 84,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/tws/QCY-T13-ANC-TWS-Earbuds.webp",
     "images": [
       "/images/catalog/tws/QCY-T13-ANC-TWS-Earbuds.webp"
@@ -1991,8 +1991,8 @@ export const catalogProducts: Product[] = [
     "price": 2190,
     "regularPrice": 2650,
     "stock": 15,
-    "rating": 4.7,
-    "reviewsCount": 87,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/tws/Redmi-Buds-5-TWS-Earbuds.webp",
     "images": [
       "/images/catalog/tws/Redmi-Buds-5-TWS-Earbuds.webp"
@@ -2027,8 +2027,8 @@ export const catalogProducts: Product[] = [
     "price": 2190,
     "regularPrice": 2650,
     "stock": 15,
-    "rating": 4.4,
-    "reviewsCount": 93,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/tws/Samsung-Galaxy-Buds-FE-TWS.webp",
     "images": [
       "/images/catalog/tws/Samsung-Galaxy-Buds-FE-TWS.webp"
@@ -2063,8 +2063,8 @@ export const catalogProducts: Product[] = [
     "price": 2190,
     "regularPrice": 2650,
     "stock": 15,
-    "rating": 4.4,
-    "reviewsCount": 93,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/tws/Soundcore-R50i-TWS-Earbuds.webp",
     "images": [
       "/images/catalog/tws/Soundcore-R50i-TWS-Earbuds.webp"
@@ -2099,8 +2099,8 @@ export const catalogProducts: Product[] = [
     "price": 2190,
     "regularPrice": 2650,
     "stock": 15,
-    "rating": 4.6,
-    "reviewsCount": 99,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/tws/realme-Buds-T300-TWS-Earbuds.webp",
     "images": [
       "/images/catalog/tws/realme-Buds-T300-TWS-Earbuds.webp"
@@ -2135,8 +2135,8 @@ export const catalogProducts: Product[] = [
     "price": 550,
     "regularPrice": 750,
     "stock": 15,
-    "rating": 4.4,
-    "reviewsCount": 93,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/wired-earphones/JBL-C100SI-Wired-Earphones.webp",
     "images": [
       "/images/catalog/wired-earphones/JBL-C100SI-Wired-Earphones.webp"
@@ -2171,8 +2171,8 @@ export const catalogProducts: Product[] = [
     "price": 550,
     "regularPrice": 750,
     "stock": 15,
-    "rating": 4.5,
-    "reviewsCount": 111,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/wired-earphones/Samsung-EO-IC100-USB-C-Earphones.webp",
     "images": [
       "/images/catalog/wired-earphones/Samsung-EO-IC100-USB-C-Earphones.webp"
@@ -2207,8 +2207,8 @@ export const catalogProducts: Product[] = [
     "price": 550,
     "regularPrice": 750,
     "stock": 15,
-    "rating": 4.4,
-    "reviewsCount": 108,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/wired-earphones/Sony-MDR-EX15AP-Wired-Earphones.webp",
     "images": [
       "/images/catalog/wired-earphones/Sony-MDR-EX15AP-Wired-Earphones.webp"
@@ -2243,8 +2243,8 @@ export const catalogProducts: Product[] = [
     "price": 550,
     "regularPrice": 750,
     "stock": 15,
-    "rating": 4.7,
-    "reviewsCount": 117,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/wired-earphones/boAt-BassHeads-100-Wired-Earphones.webp",
     "images": [
       "/images/catalog/wired-earphones/boAt-BassHeads-100-Wired-Earphones.webp"
@@ -2279,8 +2279,8 @@ export const catalogProducts: Product[] = [
     "price": 550,
     "regularPrice": 750,
     "stock": 15,
-    "rating": 4.6,
-    "reviewsCount": 114,
+    "rating": 0,
+    "reviewsCount": 0,
     "image": "/images/catalog/wired-earphones/realme-Buds-2-Neo-Wired-Earphones.webp",
     "images": [
       "/images/catalog/wired-earphones/realme-Buds-2-Neo-Wired-Earphones.webp"

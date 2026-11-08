@@ -2,9 +2,7 @@ import type { Metadata } from "next";
 import { pageMetadata } from "@/_components/seo/metadata";
 import { Suspense } from "react";
 import Image from "next/image";
-import {
-  ProductCategoryLinks,
-} from "@/_components/cards/ProductCategoryLinks";
+import { ProductCategoryLinks } from "@/_components/cards/ProductCategoryLinks";
 import { notFound } from "next/navigation";
 import { productsData } from "@/_data/products";
 import { Container } from "@/_components/layout/Container";
@@ -12,9 +10,10 @@ import { ProductActions } from "@/_components/forms/ProductActions";
 import { ProductCard } from "@/_components/cards/ProductCard";
 import { ProductSpecsTable } from "@/_components/cards/ProductSpecsTable";
 import { ProductTrustBadges } from "@/_components/cards/ProductTrustBadges";
+import { ProductReviewsSection } from "@/_components/cards/ProductReviewsSection";
 import { ProductJsonLd } from "@/_components/seo/ProductJsonLd";
 import { formatPrice, calculateDiscount } from "@/lib/utils";
-import { Star } from "lucide-react";
+import { ProductRatingHeader } from "@/_components/cards/ProductRatingHeader";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -31,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return pageMetadata({
     title: `${product.title} | Muhit Telecom`,
-    description: `${product.shortDesc} Price: ${formatPrice(product.price)}. Order from Muhit Telecom in Hili with Cash on Delivery across Bangladesh.`,
+    description: `${product.shortDesc} Price: ${formatPrice(product.price)}. Order from Muhit Telecom in Hili with COD across BD.`,
     path: `/products/${product.slug}`,
     image: product.image,
   });
@@ -43,11 +42,10 @@ function ProductLoading() {
       <Container>
         <div className="surface-panel grid animate-pulse gap-6 p-4 sm:p-7 lg:grid-cols-2 lg:p-8">
           <div className="aspect-square rounded-lg bg-muted" />
-          <div className="space-y-5 py-2">
+          <div className="space-y-4 py-2">
             <div className="h-4 w-32 rounded bg-muted" />
-            <div className="h-12 max-w-lg rounded bg-muted" />
-            <div className="h-20 max-w-xl rounded bg-muted" />
-            <div className="h-16 rounded-lg bg-muted" />
+            <div className="h-10 max-w-lg rounded bg-muted" />
+            <div className="h-16 max-w-xl rounded bg-muted" />
           </div>
         </div>
       </Container>
@@ -105,19 +103,7 @@ async function ProductDetailsContent({ params }: Props) {
                 {product.shortDesc}
               </p>
 
-              <div className="flex items-center gap-2 mt-3">
-                <div className="flex items-center text-amber-500">
-                  {Array.from({ length: 5 }).map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-current" />
-                  ))}
-                </div>
-                <span className="text-xs font-bold text-foreground">
-                  {product.rating}
-                </span>
-                <span className="text-xs text-muted-foreground">
-                  ({product.reviewsCount} reviews)
-                </span>
-              </div>
+              <ProductRatingHeader product={product} />
             </div>
 
             <div className="flex flex-wrap items-baseline gap-3 rounded-lg border border-border/70 bg-muted/40 p-4 sm:p-5">
@@ -142,10 +128,8 @@ async function ProductDetailsContent({ params }: Props) {
           </div>
         </div>
 
-        <ProductSpecsTable
-          description={product.description}
-          specs={product.specs}
-        />
+        <ProductSpecsTable description={product.description} specs={product.specs} />
+        <ProductReviewsSection product={product} />
         <ProductCategoryLinks product={product} />
 
         {related.length > 0 && (

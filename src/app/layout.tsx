@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import { Geist, Hind_Siliguri } from "next/font/google";
 import "./globals.css";
 import { CartProvider } from "@/_context/CartContext";
+import { AuthProvider } from "@/_context/AuthContext";
 import { TopBanner } from "@/_components/layout/TopBanner";
 import { Navbar } from "@/_components/layout/Navbar";
 import { Footer } from "@/_components/layout/Footer";
+import { HelpCtaSection } from "@/_components/sections/HelpCtaSection";
 import { CartDrawer } from "@/_components/layout/CartDrawer";
 import { WhatsAppFloating } from "@/_components/layout/WhatsAppFloating";
 import { BackToTop } from "@/_components/layout/BackToTop";
@@ -75,26 +77,29 @@ export default function RootLayout({
         <LocalBusinessJsonLd />
       </head>
       <body className="min-h-screen flex flex-col antialiased bg-background text-foreground">
-        <CartProvider>
-          <TopBanner />
-          <Navbar />
-          <main className="flex-1">
-            <Suspense fallback={null}>
-              <RouteBreadcrumbs />
-            </Suspense>
-            {children}
-          </main>
-          <Footer />
-          <div
-            aria-hidden="true"
-            className="shrink-0 md:hidden"
-            style={{ height: "calc(4rem + env(safe-area-inset-bottom))" }}
-          />
-          <CartDrawer />
-          <WhatsAppFloating />
-          <BackToTop />
-          <MobileBottomNav />
-        </CartProvider>
+        <AuthProvider>
+          <CartProvider>
+            <TopBanner />
+            <Navbar />
+            <main className="flex-1">
+              <Suspense fallback={null}>
+                <RouteBreadcrumbs />
+              </Suspense>
+              {children}
+            </main>
+            <HelpCtaSection />
+            <Footer />
+            <div
+              aria-hidden="true"
+              className="shrink-0 md:hidden"
+              style={{ height: "calc(4rem + env(safe-area-inset-bottom))" }}
+            />
+            <CartDrawer />
+            <WhatsAppFloating />
+            <BackToTop />
+            <MobileBottomNav />
+          </CartProvider>
+        </AuthProvider>
       </body>
     </html>
   );

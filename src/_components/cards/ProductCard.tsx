@@ -53,6 +53,11 @@ export function ProductCard({ product }: { product: Product }) {
             className="object-contain p-3 transition-transform duration-300 ease-out group-hover:scale-105 sm:p-4"
           />
         </Link>
+        {hasDiscount && (
+          <span className="pointer-events-none absolute top-2 right-2 z-10 rounded-md border border-emerald-500/20 bg-emerald-50/95 px-1.5 py-0.5 text-[10px] font-bold leading-tight text-emerald-700 shadow-xs backdrop-blur-xs sm:top-2.5 sm:right-2.5 sm:text-[11px]">
+            Save {formatPrice(product.regularPrice - product.price)}
+          </span>
+        )}
       </div>
 
       {/* Product Details */}
@@ -101,11 +106,6 @@ export function ProductCard({ product }: { product: Product }) {
                   </span>
                 )}
               </div>
-              {hasDiscount && (
-                <span className="mt-1 inline-block rounded-md border border-emerald-200 bg-emerald-50 px-1.5 py-0.5 text-[10px] font-bold leading-none text-emerald-800 sm:text-[11px]">
-                  Save {formatPrice(product.regularPrice - product.price)}
-                </span>
-              )}
             </div>
             <button
               type="button"

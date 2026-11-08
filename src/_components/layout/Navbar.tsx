@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Logo } from "@/_components/layout/Logo";
 import { NavSearch } from "@/_components/layout/NavSearch";
 import { CartNavButton } from "@/_components/layout/CartNavButton";
+import { UserNavButton } from "@/_components/layout/UserNavButton";
 import { MobileNav } from "@/_components/layout/MobileNav";
 import { NavbarNav } from "@/_components/layout/NavbarNav";
 import { PackageSearch } from "lucide-react";
@@ -58,6 +59,9 @@ export function Navbar() {
 
             {/* Vertical Divider Line */}
             <div className="mx-1 hidden h-8 w-px bg-white/20 sm:block" />
+
+            {/* User Google Auth Button */}
+            <UserNavButton />
 
             {/* Cart Icon & Label with Badge */}
             <CartNavButton />

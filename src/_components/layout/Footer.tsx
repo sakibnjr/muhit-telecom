@@ -6,7 +6,7 @@ import { Container } from "@/_components/layout/Container";
 import { categories } from "@/_data/categories";
 import { servicesData } from "@/_data/services";
 import { siteConfig } from "@/_data/siteConfig";
-import { Clock3, Mail, MapPin, MessageCircle, Phone, ArrowUpRight } from "lucide-react";
+import { Clock3, Mail, MapPin, ArrowUpRight } from "lucide-react";
 
 const supportLinks = [
   { label: "Track Order", href: "/track-order" },
@@ -29,38 +29,6 @@ export function Footer() {
       <div aria-hidden="true" className="h-px bg-gradient-to-r from-transparent via-primary/70 to-transparent" />
 
       <Container className="relative py-9 sm:py-12">
-        <section aria-labelledby="footer-contact-heading" className="mb-10 rounded-2xl border border-white/10 bg-gradient-to-br from-primary/20 via-white/[0.04] to-white/[0.02] p-5 shadow-xl shadow-black/10 sm:mb-12 sm:p-7 lg:p-8">
-          <div className="flex flex-col justify-between gap-6 md:flex-row md:items-center">
-            <div className="w-full">
-              <h2 id="footer-contact-heading" className="text-xl font-bold tracking-tight text-white sm:text-2xl">
-                Need help choosing a gadget or repair?
-              </h2>
-              <p className="mt-2 w-full text-sm leading-6 text-slate-300">
-                Talk directly with Muhit Telecom in Hili. We can help with product questions, delivery, and repair enquiries.
-              </p>
-            </div>
-            <div className="flex shrink-0 flex-col gap-2 sm:flex-row">
-              <a
-                href={siteConfig.whatsappUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-emerald-500 px-5 py-3 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-emerald-400 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-emerald-300"
-              >
-                <MessageCircle className="size-4" aria-hidden="true" />
-                WhatsApp us
-                <span className="sr-only"> (opens in a new tab)</span>
-              </a>
-              <a
-                href={`tel:${siteConfig.phoneIntl}`}
-                className="inline-flex min-h-11 items-center justify-center gap-2 rounded-xl border border-white/15 bg-white/[0.06] px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-white/10 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sky-300"
-              >
-                <Phone className="size-4 text-sky-300" aria-hidden="true" />
-                {siteConfig.phone}
-              </a>
-            </div>
-          </div>
-        </section>
-
         <div className="grid items-stretch gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-12 lg:gap-x-10">
           <div className="flex min-w-0 flex-col lg:col-span-3">
             <Logo />
